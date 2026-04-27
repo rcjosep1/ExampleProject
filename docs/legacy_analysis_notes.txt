@@ -1,0 +1,199 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from pathlib import Path
+
+# -----------------------------
+# PATHS
+# -----------------------------
+BASE_DIR = Path(__file__).resolve().parent
+chem_path = BASE_DIR / "earthchem_export_apr22_26_0128.csv"
+meta_path = BASE_DIR / "earthchem_export_apr22_26_0128_sample_metadata.csv"
+
+outdir = BASE_DIR / "earthchem_poc_output"
+outdir.mkdir(exist_ok=True)
+
+# -----------------------------
+# HELPERS
+# -----------------------------
+def clean_sample_name(s):
+    return (
+        s.astype(str)
+         .str.replace("\ufeff", "", regex=False)
+         .str.replace('="', "", regex=False)
+         .str.replace('"', "", regex=False)
+         .str.strip()
+    )
+
+def to_num(series):
+    return pd.to_numeric(series, errors="coerce")
+
+def first_valid(series):
+    s = series.dropna()
+    if len(s) == 0:
+        return np.nan
+    return s.iloc[0]
+
+def collapse(df, key):
+    cols = [c for c in df.columns if c != key]
+    return df.groupby(key, as_index=False)[cols].agg(first_valid)
+
+def standardize_setting(x):
+    if pd.isna(x):
+        return np.nan
+    s = str(x).upper()
+    if "SPREADING" in s or "RIDGE" in s:
+        return "MOR"
+    if "ARC" in s:
+        return "ARC"
+    if "OCEAN ISLAND" in s or "SEAMOUNT" in s:
+        return "HOTSPOT"
+    return "OTHER"
+
+def compute_age(row):
+    age = row.get("Geologic Age")
+    if pd.notna(age):
+        return age
+
+    mn = row.get("Geologic Age Min (Ma)")
+    mx = row.get("Geologic Age Max (Ma)")
+
+    if pd.notna(mn) and pd.notna(mx):
+        return (min(mn, mx) + max(mn, mx)) / 2
+    if pd.notna(mn):
+        return mn
+    if pd.notna(mx):
+        return mx
+    return np.nan
+
+# -----------------------------
+# LOAD FULL FILES (no column filtering → avoids silent data loss)
+# -----------------------------
+chem = pd.read_csv(chem_path, encoding="utf-8-sig", low_memory=False)
+meta = pd.read_csv(meta_path, encoding="utf-8-sig", low_memory=False)
+
+# -----------------------------
+# CLEAN KEYS
+# -----------------------------
+chem["sample_key"] = clean_sample_name(chem["Sample Name"])
+meta["sample_key"] = clean_sample_name(meta["Analyzed Sample Name"])
+
+# -----------------------------
+# COLLAPSE DUPLICATES (THIS FIXES YOUR 5M ROW PROBLEM)
+# -----------------------------
+chem = collapse(chem, "sample_key")
+meta = collapse(meta, "sample_key")
+
+print("Unique chem:", len(chem))
+print("Unique meta:", len(meta))
+print("Shared keys:", len(set(chem["sample_key"]) & set(meta["sample_key"])))
+
+# -----------------------------
+# MERGE (now safe)
+# -----------------------------
+df = chem.merge(meta, on="sample_key", how="inner")
+print("Merged rows:", len(df))
+
+# -----------------------------
+# AGE
+# -----------------------------
+for c in ["Geologic Age", "Geologic Age Min (Ma)", "Geologic Age Max (Ma)"]:
+    if c in df.columns:
+        df[c] = to_num(df[c])
+
+df["Age_Ma"] = df.apply(compute_age, axis=1)
+
+print("Age non-null:", df["Age_Ma"].notna().sum())
+
+# -----------------------------
+# CHEMISTRY
+# -----------------------------
+df["SiO2"] = to_num(df.get("SiO2 (wt%)"))
+df["MgO"] = to_num(df.get("MgO (wt%)"))
+df["TiO2"] = to_num(df.get("TiO2 (wt%)"))
+df["K2O"] = to_num(df.get("K2O (wt%)"))
+
+df["FeOT"] = (
+    to_num(df.get("FeOT (wt%)"))
+    .fillna(to_num(df.get("Fe2O3T (wt%)")))
+    .fillna(to_num(df.get("FeO (wt%)")))
+    .fillna(to_num(df.get("Fe2O3 (wt%)")))
+)
+
+print("SiO2 non-null:", df["SiO2"].notna().sum())
+
+# -----------------------------
+# FILTER (keep it LIGHT for now)
+# -----------------------------
+df = df[df["Age_Ma"].notna()]
+df = df[df["SiO2"].notna()]
+
+print("Rows after cleaning:", len(df))
+
+# -----------------------------
+# SETTING
+# -----------------------------
+if "Tectonic Setting" in df.columns:
+    df["Setting"] = df["Tectonic Setting"].apply(standardize_setting)
+else:
+    df["Setting"] = "OTHER"
+
+# -----------------------------
+# AGE BINS
+# -----------------------------
+bin_size = 100
+df["Age_Bin"] = (df["Age_Ma"] // bin_size) * bin_size
+
+# -----------------------------
+# SAVE CLEAN DATA
+# -----------------------------
+df.to_csv(outdir / "earthchem_cleaned_poc.csv", index=False)
+
+# -----------------------------
+# QUICK SCATTER (PROOF OF CONCEPT)
+# -----------------------------
+plt.figure(figsize=(10,6))
+
+for setting in df["Setting"].dropna().unique():
+    sub = df[df["Setting"] == setting]
+    plt.scatter(sub["Age_Ma"], sub["SiO2"], s=5, alpha=0.2, label=setting)
+
+plt.gca().invert_xaxis()
+plt.xlabel("Age (Ma)")
+plt.ylabel("SiO2")
+plt.title("Proof of concept: SiO2 vs Age")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+# -----------------------------
+# BINNED PLOT
+# -----------------------------
+def binned_plot(df, var):
+    g = df.groupby(["Setting","Age_Bin"])[var]
+
+    stats = g.median().reset_index(name="median")
+    q1 = g.quantile(0.25).reset_index(name="q1")
+    q3 = g.quantile(0.75).reset_index(name="q3")
+
+    stats = stats.merge(q1, on=["Setting","Age_Bin"])
+    stats = stats.merge(q3, on=["Setting","Age_Bin"])
+
+    plt.figure(figsize=(10,6))
+
+    for setting in stats["Setting"].unique():
+        sub = stats[stats["Setting"]==setting].sort_values("Age_Bin")
+        plt.plot(sub["Age_Bin"], sub["median"], marker="o", label=setting)
+        plt.fill_between(sub["Age_Bin"], sub["q1"], sub["q3"], alpha=0.2)
+
+    plt.gca().invert_xaxis()
+    plt.xlabel("Age (Ma)")
+    plt.ylabel(var)
+    plt.title(f"{var} vs Age (binned)")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+binned_plot(df, "SiO2")
+binned_plot(df, "MgO")
+binned_plot(df, "TiO2")

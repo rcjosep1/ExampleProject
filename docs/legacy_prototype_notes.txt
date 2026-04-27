@@ -1,0 +1,85 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from pathlib import Path
+
+# Change this if needed
+file_path = Path("mock_earthchem_dataset.csv")
+
+df = pd.read_csv(file_path)
+
+# ---- Age handling ----
+# Use midpoint of min/max age; if one is missing, fall back to the other.
+min_age = pd.to_numeric(df["Geologic Age Min (Ma)"], errors="coerce")
+max_age = pd.to_numeric(df["Geologic Age Max (Ma)"], errors="coerce")
+
+df["Age_Ma"] = np.where(
+    min_age.notna() & max_age.notna(),
+    (min_age + max_age) / 2,
+    np.where(min_age.notna(), min_age, max_age)
+)
+
+# ---- Chemistry handling ----
+df["SiO2"] = pd.to_numeric(df["SiO2 (wt%)"], errors="coerce")
+
+# Keep only rows we can use
+df = df.dropna(subset=["Age_Ma", "SiO2", "Tectonic Setting"]).copy()
+
+# Standardise setting labels
+df["Tectonic Setting"] = df["Tectonic Setting"].astype(str).str.upper().str.strip()
+
+# ---- Bin ages ----
+bin_size = 500  # change to 250 or 100 if you want finer bins
+df["Age_Bin"] = (df["Age_Ma"] // bin_size) * bin_size
+
+# ---- Summary stats by setting and age bin ----
+stats = (
+    df.groupby(["Tectonic Setting", "Age_Bin"])["SiO2"]
+      .agg(
+          median="median",
+          q25=lambda x: x.quantile(0.25),
+          q75=lambda x: x.quantile(0.75),
+          count="count"
+      )
+      .reset_index()
+      .sort_values(["Tectonic Setting", "Age_Bin"])
+)
+
+# ---- Plot ----
+plt.figure(figsize=(8, 5))
+
+settings_order = ["MOR", "ARC", "HOTSPOT"]
+colors = {
+    "MOR": "tab:orange",
+    "ARC": "tab:blue",
+    "HOTSPOT": "tab:green",
+}
+
+for setting in settings_order:
+    sub = stats[stats["Tectonic Setting"] == setting].sort_values("Age_Bin")
+    if sub.empty:
+        continue
+
+    plt.plot(
+        sub["Age_Bin"],
+        sub["median"],
+        marker="o",
+        linewidth=2,
+        label=setting,
+        color=colors.get(setting, None)
+    )
+    plt.fill_between(
+        sub["Age_Bin"],
+        sub["q25"],
+        sub["q75"],
+        alpha=0.18,
+        color=colors.get(setting, None)
+    )
+
+plt.gca().invert_xaxis()
+plt.xlabel("Age (Ma)")
+plt.ylabel("SiO2 (wt%)")
+plt.title("SiO2 by tectonic setting through time")
+plt.legend()
+plt.tight_layout()
+plt.show()

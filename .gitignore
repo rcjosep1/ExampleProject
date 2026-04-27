@@ -1,0 +1,15 @@
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+# Local scratch files
+test
+
+# Large/raw source exports that should stay local or move to Git LFS
+data/raw/earthchem_export_apr22_26_0128.csv
+data/raw/earthchem_export_apr22_26_0128_sample_metadata.csv
+data/raw/earthchem_export_apr22_26_0128.txt
+data/raw/earthchem_download_78991.xlsx
+
+# Generated output directory from earlier local runs
+earthchem_poc_output/
