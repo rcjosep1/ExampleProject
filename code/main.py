@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 
-folder = Path(r"C:\Users\ramse\Documents\AnacondaProjects\ExampleProject\data\Data")
+folder = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject\data\Data")
 
 files = {
     "MORB": ("2022_09-0SVW6S_Stracke_MORB.csv", 3),
@@ -128,6 +128,17 @@ arc = extract_arc(dfs["ARC"])
 df_all = pd.concat([morb, oib, arc, arc_age], ignore_index=True)
 
 df_all = df_all.dropna(subset=["SiO2", "Age_Ma"])
+
+df_all.to_csv("data/processed/cleaned_dataset.csv", index=False)
+
+# ---- Save cleaned dataset ----
+output_path = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject\data\processed")
+
+output_path.mkdir(parents=True, exist_ok=True)
+
+df_all.to_csv(output_path / "cleaned_dataset.csv", index=False)
+
+print("Saved cleaned dataset to:", output_path / "cleaned_dataset.csv")
 
 print(df_all.head())
 print(df_all[["SiO2", "MgO", "TiO2", "Age_Ma", "Setting"]].notna().sum())
