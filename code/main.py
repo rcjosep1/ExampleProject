@@ -2,8 +2,13 @@ from pathlib import Path
 
 import pandas as pd
 
+BASE_DIR = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject")
 
-folder = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject\data\Data")
+DATA_DIR = BASE_DIR / "data" / "raw"
+OUTPUT_DATA = BASE_DIR / "data"
+FIG_DIR = BASE_DIR / "figures"
+
+folder = DATA_DIR
 
 files = {
     "MORB": ("2022_09-0SVW6S_Stracke_MORB.csv", 3),
@@ -50,8 +55,8 @@ def extract_basic(df, setting):
     if "SIO2" in df.columns:
         out["SiO2"] = pd.to_numeric(df["SIO2"], errors="coerce")
 
-    if "MG0" in df.columns:  # sometimes typo, just in case
-        out["MgO"] = pd.to_numeric(df["MG0"], errors="coerce")
+    if "MGO" in df.columns:
+        out["MgO"] = pd.to_numeric(df["MGO"], errors="coerce")
     elif "MGO" in df.columns:
         out["MgO"] = pd.to_numeric(df["MGO"], errors="coerce")
 
@@ -127,23 +132,17 @@ arc = extract_arc(dfs["ARC"])
 
 df_all = pd.concat([morb, oib, arc, arc_age], ignore_index=True)
 
-df_all = df_all.dropna(subset=["SiO2", "Age_Ma"])
-
-df_all.to_csv("data/processed/cleaned_dataset.csv", index=False)
-
-# ---- Save cleaned dataset ----
-output_path = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject\data\processed")
-
-output_path.mkdir(parents=True, exist_ok=True)
-
-df_all.to_csv(output_path / "cleaned_dataset.csv", index=False)
-
-print("Saved cleaned dataset to:", output_path / "cleaned_dataset.csv")
-
-print(df_all.head())
-print(df_all[["SiO2", "MgO", "TiO2", "Age_Ma", "Setting"]].notna().sum())
 
 df_all = df_all.dropna(subset=["SiO2", "Age_Ma"]).copy()
+
+
+
+# ---- SAVE CLEANED DATA ----
+OUTPUT_DATA.mkdir(parents=True, exist_ok=True)
+
+df_all.to_csv(OUTPUT_DATA / "cleaned_dataset.csv", index=False)
+
+print("Saved cleaned dataset to:", OUTPUT_DATA / "cleaned_dataset.csv")
 
 bin_size = 50
 df_all["Age_Bin"] = (df_all["Age_Ma"] // bin_size) * bin_size
@@ -175,4 +174,6 @@ plt.gca().invert_xaxis()
 plt.xlabel("Age (Ma)")
 plt.ylabel("SiO2")
 plt.legend()
+FIG_DIR.mkdir(parents=True, exist_ok=True)
+plt.savefig(FIG_DIR / "sio2_vs_age.png", dpi=300)
 plt.show()
