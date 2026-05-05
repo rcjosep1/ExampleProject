@@ -219,7 +219,7 @@ df_all.to_csv(OUTPUT_DATA / "cleaned_dataset.csv", index=False)
 print("Saved cleaned dataset to:", OUTPUT_DATA / "cleaned_dataset.csv")
 
 bin_size = 50
-df_all["Age_Bin"] = (df_all["Age_Ma"] // bin_size) * bin_size
+df_all["Age_Bin"] = ((df_all["Age_Ma"] // bin_size) * bin_size) + (bin_size / 2)
 
 stats = (
     df_all.groupby(["Setting", "Age_Bin"])["SiO2"]
