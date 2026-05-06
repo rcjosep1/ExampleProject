@@ -1,0 +1,75 @@
+%0 Journal Article
+%T Mineral evolution
+%V 93
+%N 11-12
+%P 1693-1720
+%U https://www.degruyter.com/document/doi/10.2138/am.2008.2955/html
+%G en
+%J American Mineralogist
+%A Hazen, R. M.
+%A Papineau, D.
+%A Bleeker, W.
+%A Downs, R. T.
+%A Ferry, J. M.
+%A McCoy, T. J.
+%A Sverjensky, D. A.
+%A Yang, H.
+%D 2008-11-01
+
+%0 Journal Article
+%T Unveiling carbonate mineral evolution across geological timescales using an integrated mineral database approach
+%V 272
+%P 105206
+%U https://linkinghub.elsevier.com/retrieve/pii/S0012825225001679
+%G en
+%J Earth-Science Reviews
+%A Ponomar, Vitalii
+%A Gavryliv, Liubomyr
+%D 01/2026
+
+%0 Journal Article
+%T The relationship between major element chemistry and tectonic environment of basic and intermediate volcanic rocks
+%V 36
+%N 1
+%P 121-132
+%* https://www.elsevier.com/tdm/userlicense/1.0/
+%U https://linkinghub.elsevier.com/retrieve/pii/0012821X77901935
+%G en
+%J Earth and Planetary Science Letters
+%A Pearce, T.H.
+%A Gorman, B.E.
+%A Birkett, T.C.
+%D 8/1977
+
+%0 Journal Article
+%T Trace-element geochemistry of archean greenstone belts
+%V 12
+%N 4
+%P 393-417
+%* https://www.elsevier.com/tdm/userlicense/1.0/
+%U https://linkinghub.elsevier.com/retrieve/pii/001282527690012X
+%G en
+%J Earth-Science Reviews
+%A Condie, K
+%D 11/1976
+
+%0 Journal Article
+%T Spatial and temporal control of Archean tectonomagmatic regimes
+%V 241
+%P 104417
+%U https://linkinghub.elsevier.com/retrieve/pii/S001282522300106X
+%G en
+%J Earth-Science Reviews
+%A Vandenburg, Eric D.
+%A Nebel, Oliver
+%A Smithies, R. Hugh
+%A Capitanio, Fabio A.
+%A Miller, Laura
+%A Cawood, Peter A.
+%A Millet, Marc-Alban
+%A Bruand, Emilie
+%A Moyen, Jean-François
+%A Wang, Xueying
+%A Nebel-Jacobsen, Yona
+%D 06/2023
+
