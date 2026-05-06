@@ -2,6 +2,41 @@ from pathlib import Path
 
 import pandas as pd
 
+## ARC extractor helper
+def first_number(series: pd.Series) -> pd.Series:
+    extracted = series.astype(str).str.extract(r"(-?\d+(?:\.\d+)?)")[0]
+    return pd.to_numeric(extracted, errors="coerce")
+
+## Age helper
+def geologic_age_to_ma(value):
+    s = str(value).lower()
+
+    mapping = {
+        "quaternary": 1,
+        "pliocene": 3,
+        "miocene": 10,
+        "oligocene": 30,
+        "eocene": 45,
+        "paleocene": 60,
+        "cretaceous": 100,
+        "jurassic": 170,
+        "triassic": 230,
+        "permian": 270,
+        "carboniferous": 320,
+        "devonian": 390,
+        "silurian": 430,
+        "ordovician": 470,
+        "cambrian": 510,
+        "proterozoic": 1200,
+        "archean": 2600,
+    }
+
+    for key, val in mapping.items():
+        if key in s:
+            return val
+
+    return pd.NA
+
 BASE_DIR = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject")
 
 DATA_DIR = BASE_DIR / "data" / "raw"
@@ -84,14 +119,18 @@ def extract_arc(df):
     out["SiO2"] = pd.to_numeric(df["SiO2"], errors="coerce")
     out["MgO"] = pd.to_numeric(df["MgO"], errors="coerce")
     out["TiO2"] = pd.to_numeric(df["TiO2"], errors="coerce")
-    out["Age_Ma"] = pd.to_numeric(df["Age  (Ma)"], errors="coerce")
+
+    age_numeric = first_number(df["Age  (Ma)"])
+    age_fallback = df["Geologycal_age"].apply(geologic_age_to_ma) if "Geologycal_age" in df.columns else pd.Series(pd.NA, index=df.index)
+
+    out["Age_Ma"] = age_numeric.fillna(age_fallback)
     out["Setting"] = "ARC"
     return out
 
 
 def extract_arc_age(df):
     out = pd.DataFrame()
-    out["Age_Ma"] = pd.to_numeric(df["Age"], errors="coerce")
+    out["Age_Ma"] = first_number(df["Age"])
     out["Setting"] = "ARC"
     return out
 
@@ -188,6 +227,131 @@ def extract_mccoy() -> pd.DataFrame:
 
     return df
 
+
+# --- Qin filter to Extend Hotspot Data ---
+# --- Qin hotspot subset search ---
+import re
+
+qin = pd.read_csv(folder / "2024-007_AVAW2Y_Qin_Major Elements.csv", header=3, low_memory=False)
+qin.columns = [c.strip() for c in qin.columns]
+
+def find_col(df, candidates):
+    lookup = {c.strip().lower(): c for c in df.columns}
+    for cand in candidates:
+        key = cand.strip().lower()
+        if key in lookup:
+            return lookup[key]
+    raise KeyError(f"None of these columns were found: {candidates}")
+
+location_col = find_col(qin, ["LOCATION", "Location", "location"])
+setting_col = find_col(qin, ["TECTONIC SETTING", "Tectonic Setting", "TECTONIC_SETTING"])
+
+qin[location_col] = qin[location_col].astype(str).str.upper()
+qin[setting_col] = qin[setting_col].astype(str).str.upper()
+
+# Stronger hotspot / plateau candidates
+hotspot_keywords = [
+    "ONTONG JAVA",
+    "KERGUELEN",
+    "ETHIOPIAN PLATEAU",
+    "HYBLEAN PLATEAU",
+    "CAMEROON LINE",
+    "ADAMAWA",
+    "KAPSIKI PLATEAU",
+    "MANIHIKI",
+    "CARIBBEAN",
+    "SHATSKY"
+    "KAROO",
+    "FERRAR",
+]
+
+hotspot_pattern = "|".join(re.escape(k) for k in hotspot_keywords)
+hotspot_settings = [
+    "OCEANIC PLATEAU",
+    "INTRAPLATE VOLCANICS",
+    "OCEAN ISLAND",
+    "SEAMOUNT",
+    "CONTINENTAL FLOOD BASALT",
+]
+
+mask = (
+    qin[location_col].str.contains(hotspot_pattern, na=False)
+    & qin[setting_col].isin(hotspot_settings)
+)
+
+qin_hotspot = qin.loc[mask].copy()
+
+# Remove obvious non-volcanic / mantle material
+bad_keywords = ["XENOLITH", "PERIDOTITE", "HARZBURGITE", "LHERZOLITE"]
+bad_pattern = "|".join(re.escape(k) for k in bad_keywords)
+qin_hotspot = qin_hotspot.loc[~qin_hotspot[location_col].str.contains(bad_pattern, na=False)].copy()
+
+print("=== Qin hotspot subset: LOCATION ===")
+print(qin_hotspot[location_col].value_counts().head(20))
+
+print("\n=== Qin hotspot subset: SETTINGS ===")
+print(qin_hotspot[setting_col].value_counts())
+
+print("\n=== Qin hotspot subset: SAMPLE COUNT ===")
+print(len(qin_hotspot))
+
+print(qin_hotspot[location_col].value_counts().head(20))
+
+# --- Select only the best Qin subsets ---
+keep_mask = (
+    qin_hotspot[location_col].str.contains("ONTONG JAVA", na=False) |
+    qin_hotspot[location_col].str.contains("KERGUELEN", na=False) |
+    qin_hotspot[location_col].str.contains("ETHIOPIAN", na=False) |
+    qin_hotspot[location_col].str.contains("KAROO|FERRAR", na=False)
+)
+
+qin_hotspot = qin_hotspot.loc[keep_mask].copy()
+
+# Remove intrusive/plutonic material
+qin_hotspot = qin_hotspot[
+    ~qin_hotspot[location_col].str.contains("GABBRO|PLUTONIC", na=False)
+].copy()
+
+# Remove xenolith samples
+qin_hotspot = qin_hotspot[
+    ~qin_hotspot[location_col].str.contains("XENOLITH", na=False)
+].copy()
+
+# --- Downsample by LOCATION to avoid one dataset dominating ---
+max_per_group = 40
+
+parts = []
+for _, grp in qin_hotspot.groupby(location_col):
+    parts.append(grp.sample(min(len(grp), max_per_group), random_state=0))
+qin_hotspot = pd.concat(parts, ignore_index=True)
+
+print("\n=== After downsampling ===")
+print(qin_hotspot[location_col].value_counts())
+
+def assign_age(loc):
+    if "ONTONG JAVA" in loc:
+        return 122
+    elif "KERGUELEN" in loc:
+        return 115
+    elif "ETHIOPIAN" in loc:
+        return 30
+    elif "KAROO" in loc or "FERRAR" in loc:
+        return 180
+    else:
+        return None
+
+qin_hotspot["Age_Ma"] = qin_hotspot[location_col].apply(assign_age)
+qin_hotspot["Setting"] = "HOTSPOT"
+
+# Extract chemistry columns
+qin_hotspot["SiO2"] = pd.to_numeric(qin_hotspot["SIO2(WT%)"], errors="coerce")
+qin_hotspot["TiO2"] = pd.to_numeric(qin_hotspot["TIO2(WT%)"], errors="coerce")
+qin_hotspot["MgO"] = pd.to_numeric(qin_hotspot["MGO(WT%)"], errors="coerce")
+
+qin_hotspot = qin_hotspot[["SiO2", "TiO2", "MgO", "Age_Ma", "Setting"]]
+
+
+# Extract and organize data
 dfs = {key: load_dataset(fname, header_row) for key, (fname, header_row) in files.items()}
 
 print({k: v.shape for k, v in dfs.items()})
@@ -208,9 +372,39 @@ morb = extract_basic(dfs["MORB"], "MOR")
 oib = extract_basic(dfs["HOTSPOT"], "HOTSPOT")
 arc = extract_arc(dfs["ARC"])
 
-df_all = pd.concat([morb, oib, arc, arc_age, tornare, mccoy], ignore_index=True)
+# Arc Rock Type
+arc = extract_arc(dfs["ARC"])
+
+if "Rock_type" in dfs["ARC"].columns:
+    arc["Rock_type"] = dfs["ARC"]["Rock_type"].reset_index(drop=True).astype(str)
+
+    arc = arc.reset_index(drop=True)
+
+    print("\nARC rock types:")
+    print(arc["Rock_type"].value_counts().head(30))
+
+    keep = arc["Rock_type"].str.contains(
+        r"basalt|basaltic|tholeiit|tholeiite|basaltic andesite",
+        case=False,
+        na=False
+    )
+
+    arc = arc.loc[keep].copy()
+
+
+df_all = pd.concat([morb, oib, arc, arc_age, tornare, mccoy, qin_hotspot], ignore_index=True)
 
 df_all = df_all.dropna(subset=["SiO2", "Age_Ma"]).copy()
+
+print(len(arc))
+print(arc["Rock_type"].value_counts().head())
+print(arc["Age_Ma"].notna().sum())
+print(arc["Age_Ma"].describe())
+print(df_all["Setting"].value_counts())
+
+print(arc["Age_Ma"].notna().sum())
+print(arc["Age_Ma"].describe())
+print(df_all["Setting"].value_counts())
 
 # ---- SAVE CLEANED DATA ----
 OUTPUT_DATA.mkdir(parents=True, exist_ok=True)
@@ -235,6 +429,8 @@ print(mccoy.shape)
 print(mccoy.head(10))
 print(df_all["Setting"].value_counts())
 
+
+# Plotting sequence
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(8, 5))
@@ -245,7 +441,7 @@ for setting in stats["Setting"].unique():
     plt.fill_between(sub["Age_Bin"], sub["q25"], sub["q75"], alpha=0.2)
 
 plt.gca().invert_xaxis()
-plt.xlabel("Age (Ma)")
+plt.xlabel("Age (Ma, bin center)")
 plt.ylabel("SiO2")
 plt.legend()
 FIG_DIR.mkdir(parents=True, exist_ok=True)
