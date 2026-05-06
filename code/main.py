@@ -7,6 +7,13 @@ def first_number(series: pd.Series) -> pd.Series:
     extracted = series.astype(str).str.extract(r"(-?\d+(?:\.\d+)?)")[0]
     return pd.to_numeric(extracted, errors="coerce")
 
+def first_numeric(df: pd.DataFrame, candidates: list[str]) -> pd.Series:
+    for col in candidates:
+        if col in df.columns:
+            return pd.to_numeric(df[col], errors="coerce")
+
+    return pd.Series(index=df.index, dtype="float64")
+
 ## Age helper
 def geologic_age_to_ma(value):
     s = str(value).lower()
@@ -95,21 +102,11 @@ def extract_basic(df, setting):
     if "TIO2" in df.columns:
         out["TiO2"] = pd.to_numeric(df["TIO2"], errors="coerce")
 
-    age = None
+    out["Age_Ma"] = build_age(df)
 
-    if "AGE" in df.columns:
-        age = pd.to_numeric(df["AGE"], errors="coerce")
+    out["Latitude"] = first_numeric(df, ["LATITUDE", "Latitude", "Latitude (Y)"])
+    out["Longitude"] = first_numeric(df, ["LONGITUDE", "Longitude", "Longitude (X)"])
 
-    if "MIN AGE" in df.columns and "MAX AGE" in df.columns:
-        min_age = pd.to_numeric(df["MIN AGE"], errors="coerce")
-        max_age = pd.to_numeric(df["MAX AGE"], errors="coerce")
-        midpoint = (min_age + max_age) / 2
-        if age is not None:
-            age = age.fillna(midpoint)
-        else:
-            age = midpoint
-
-    out["Age_Ma"] = age
     out["Setting"] = setting
     return out
 
@@ -124,6 +121,10 @@ def extract_arc(df):
     age_fallback = df["Geologycal_age"].apply(geologic_age_to_ma) if "Geologycal_age" in df.columns else pd.Series(pd.NA, index=df.index)
 
     out["Age_Ma"] = age_numeric.fillna(age_fallback)
+
+    out["Latitude"] = first_numeric(df, ["Latitude (Y)", "Latitude", "LATITUDE"])
+    out["Longitude"] = first_numeric(df, ["Longitude (X)", "Longitude", "LONGITUDE"])
+
     out["Setting"] = "ARC"
     return out
 
@@ -135,13 +136,20 @@ def extract_arc_age(df):
     return out
 
 
+# Tornare and McCoy Lat/Long based on Fuerteventura and Middlehurst Stream, respectively
+MCCOY_LAT = -(41 + 58/60 + 41.9/3600)   # -41.9783056
+MCCOY_LON = 173 + 30/60                 # 173.5
+
+TORNARE_LAT = 28.3587
+TORNARE_LON = -14.0537
+
+
+# Extract Tornare
 def extract_tornare() -> pd.DataFrame:
     raw = pd.read_csv(folder / "tornare_wholerock.csv", header=None, low_memory=False)
     raw = raw.dropna(how="all").reset_index(drop=True)
 
-    # Row 1 contains sample names, starting in column 2
     sample_names = raw.iloc[1, 2:].dropna().astype(str).str.strip().tolist()
-
     first_col = raw.iloc[:, 0].astype(str).str.strip()
 
     def get_row(label: str):
@@ -158,7 +166,9 @@ def extract_tornare() -> pd.DataFrame:
     for col_idx, sample in enumerate(sample_names, start=2):
         rec = {
             "Sample": sample,
-            "Age_Ma": 19.5,   # midpoint of ~14–25 Ma
+            "Age_Ma": 19.5,
+            "Latitude": TORNARE_LAT,
+            "Longitude": TORNARE_LON,
             "Setting": "HOTSPOT",
             "Source": "Tornare 2016",
         }
@@ -171,9 +181,10 @@ def extract_tornare() -> pd.DataFrame:
 
         out.append(rec)
 
-    df = pd.DataFrame(out)
-    return df
+    return pd.DataFrame(out)
 
+
+# Extract McCoy
 def extract_mccoy() -> pd.DataFrame:
     raw = pd.read_csv(folder / "mccoy_lookout_wholerock.csv", header=None, low_memory=False)
     raw = raw.dropna(how="all").reset_index(drop=True)
@@ -181,9 +192,7 @@ def extract_mccoy() -> pd.DataFrame:
     print("\nMcCoy raw preview:")
     print(raw.iloc[:8, :10])
 
-    # Row 1 contains sample names
     sample_names = raw.iloc[1, 1:].dropna().astype(str).str.strip().tolist()
-
     first_col = raw.iloc[:, 0].astype(str).str.strip()
 
     def find_row(label: str):
@@ -197,15 +206,13 @@ def extract_mccoy() -> pd.DataFrame:
         "MgO": find_row("MgO"),
     }
 
-    print("McCoy sample row: 1")
-    for k, v in rows.items():
-        print(f"McCoy {k} row:", "FOUND" if v is not None else "MISSING")
-
     out = []
     for col_idx, sample in enumerate(sample_names, start=1):
         rec = {
             "Sample": sample,
-            "Age_Ma": 91.0,   # midpoint of ~82–100 Ma
+            "Age_Ma": 91.0,
+            "Latitude": MCCOY_LAT,
+            "Longitude": MCCOY_LON,
             "Setting": "HOTSPOT",
             "Source": "McCoy-West 2010",
         }
@@ -219,7 +226,6 @@ def extract_mccoy() -> pd.DataFrame:
         out.append(rec)
 
     df = pd.DataFrame(out)
-
     df = df.dropna(subset=["SiO2", "TiO2", "MgO"], how="all").copy()
 
     if "MgO" in df.columns:
@@ -246,6 +252,11 @@ def find_col(df, candidates):
 location_col = find_col(qin, ["LOCATION", "Location", "location"])
 setting_col = find_col(qin, ["TECTONIC SETTING", "Tectonic Setting", "TECTONIC_SETTING"])
 
+lat_min_col = find_col(qin, ["LATITUDE (MIN.)"])
+lat_max_col = find_col(qin, ["LATITUDE (MAX.)"])
+lon_min_col = find_col(qin, ["LONGITUDE (MIN.)"])
+lon_max_col = find_col(qin, ["LONGITUDE (MAX.)"])
+
 qin[location_col] = qin[location_col].astype(str).str.upper()
 qin[setting_col] = qin[setting_col].astype(str).str.upper()
 
@@ -260,7 +271,7 @@ hotspot_keywords = [
     "KAPSIKI PLATEAU",
     "MANIHIKI",
     "CARIBBEAN",
-    "SHATSKY"
+    "SHATSKY",
     "KAROO",
     "FERRAR",
 ]
@@ -343,12 +354,16 @@ def assign_age(loc):
 qin_hotspot["Age_Ma"] = qin_hotspot[location_col].apply(assign_age)
 qin_hotspot["Setting"] = "HOTSPOT"
 
+## Extract Lat and Long from Qin
+qin_hotspot["Latitude"] = pd.to_numeric(qin_hotspot[[lat_min_col, lat_max_col]].mean(axis=1), errors="coerce")
+qin_hotspot["Longitude"] = pd.to_numeric(qin_hotspot[[lon_min_col, lon_max_col]].mean(axis=1), errors="coerce")
+
 # Extract chemistry columns
 qin_hotspot["SiO2"] = pd.to_numeric(qin_hotspot["SIO2(WT%)"], errors="coerce")
 qin_hotspot["TiO2"] = pd.to_numeric(qin_hotspot["TIO2(WT%)"], errors="coerce")
 qin_hotspot["MgO"] = pd.to_numeric(qin_hotspot["MGO(WT%)"], errors="coerce")
 
-qin_hotspot = qin_hotspot[["SiO2", "TiO2", "MgO", "Age_Ma", "Setting"]]
+qin_hotspot = qin_hotspot[["SiO2", "TiO2", "MgO", "Age_Ma", "Latitude", "Longitude", "Setting"]]
 
 
 # Extract and organize data
@@ -373,8 +388,6 @@ oib = extract_basic(dfs["HOTSPOT"], "HOTSPOT")
 arc = extract_arc(dfs["ARC"])
 
 # Arc Rock Type
-arc = extract_arc(dfs["ARC"])
-
 if "Rock_type" in dfs["ARC"].columns:
     arc["Rock_type"] = dfs["ARC"]["Rock_type"].reset_index(drop=True).astype(str)
 
@@ -406,6 +419,8 @@ print(arc["Age_Ma"].notna().sum())
 print(arc["Age_Ma"].describe())
 print(df_all["Setting"].value_counts())
 
+print(df_all.groupby("Setting")[["Latitude", "Longitude"]].count())
+
 # ---- SAVE CLEANED DATA ----
 OUTPUT_DATA.mkdir(parents=True, exist_ok=True)
 df_all.to_csv(OUTPUT_DATA / "cleaned_dataset.csv", index=False)
@@ -428,6 +443,57 @@ stats = (
 print(mccoy.shape)
 print(mccoy.head(10))
 print(df_all["Setting"].value_counts())
+
+print(morb["Age_Ma"].describe())
+print(df_all[df_all["Setting"] == "MOR"]["Age_Bin"].value_counts().sort_index())
+
+print(morb["Age_Ma"].notna().sum())
+print(morb[["Age_Ma", "SiO2"]].head(20))
+
+
+# Mapping sequence
+import plotly.express as px
+from pathlib import Path
+
+map_df = df_all.dropna(subset=["Latitude", "Longitude", "Age_Ma"]).copy()
+map_df["Setting"] = map_df["Setting"].replace({"MOR": "MORB"})
+
+MAP_DIR = BASE_DIR / "figures"
+MAP_DIR.mkdir(parents=True, exist_ok=True)
+
+for setting in ["MORB", "ARC", "HOTSPOT"]:
+    sub = map_df[map_df["Setting"] == setting].copy()
+
+    if sub.empty:
+        print(f"No coordinate data available for {setting}")
+        continue
+
+    fig = px.scatter_geo(
+        sub,
+        lat="Latitude",
+        lon="Longitude",
+        color="Age_Ma",
+        color_continuous_scale="Viridis",
+        projection="natural earth",
+        title=f"{setting} samples colored by age",
+        hover_data=["Age_Ma", "SiO2", "TiO2", "MgO", "Source"],
+    )
+
+    fig.update_traces(marker=dict(size=6, opacity=0.8))
+    fig.update_geos(
+        showland=True,
+        landcolor="rgb(240,240,240)",
+        showcountries=True,
+        showocean=True,
+        oceancolor="rgb(220,235,245)",
+    )
+
+    out_html = MAP_DIR / f"{setting.lower()}_map.html"
+    fig.write_html(out_html)
+    print(f"Saved map to {out_html}")
+
+import webbrowser
+webbrowser.open(out_html.as_uri())
 
 
 # Plotting sequence
