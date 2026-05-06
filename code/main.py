@@ -102,6 +102,11 @@ def extract_basic(df, setting):
     if "TIO2" in df.columns:
         out["TiO2"] = pd.to_numeric(df["TIO2"], errors="coerce")
 
+    if "K2O" in df.columns:
+        out["K2O"] = pd.to_numeric(df["K2O"], errors="coerce")
+    elif "K2O %" in df.columns:
+        out["K2O"] = pd.to_numeric(df["K2O %"], errors="coerce")
+
     out["Age_Ma"] = build_age(df)
 
     out["Latitude"] = first_numeric(df, ["LATITUDE", "Latitude", "Latitude (Y)"])
@@ -116,6 +121,7 @@ def extract_arc(df):
     out["SiO2"] = pd.to_numeric(df["SiO2"], errors="coerce")
     out["MgO"] = pd.to_numeric(df["MgO"], errors="coerce")
     out["TiO2"] = pd.to_numeric(df["TiO2"], errors="coerce")
+    out["K2O"] = pd.to_numeric(df["K2O"], errors="coerce")
 
     age_numeric = first_number(df["Age  (Ma)"])
     age_fallback = df["Geologycal_age"].apply(geologic_age_to_ma) if "Geologycal_age" in df.columns else pd.Series(pd.NA, index=df.index)
@@ -160,6 +166,7 @@ def extract_tornare() -> pd.DataFrame:
         "SiO2": get_row("SiO2"),
         "TiO2": get_row("TiO2"),
         "MgO": get_row("MgO"),
+        "K2O": get_row("K2O"),
     }
 
     out = []
@@ -204,6 +211,7 @@ def extract_mccoy() -> pd.DataFrame:
         "SiO2": find_row("SiO2"),
         "TiO2": find_row("TiO2"),
         "MgO": find_row("MgO"),
+        "K2O": find_row("K2O")
     }
 
     out = []
@@ -233,6 +241,32 @@ def extract_mccoy() -> pd.DataFrame:
 
     return df
 
+
+# PetDB Data Extractor
+def extract_petdb() -> pd.DataFrame:
+    df = pd.read_csv(folder / "PetDB Data.csv", header=2, low_memory=False)
+    df.columns = [str(c).strip() for c in df.columns]
+
+    out = pd.DataFrame()
+
+    out["SiO2"] = pd.to_numeric(df["SiO2 %"], errors="coerce")
+    out["TiO2"] = pd.to_numeric(df["TiO2 %"], errors="coerce")
+    out["MgO"] = pd.to_numeric(df["MgO %"], errors="coerce")
+    out["K2O"] = pd.to_numeric(df["K2O %"], errors="coerce")
+
+    out["Age_Ma"] = pd.to_numeric(df["Age(Ma)"], errors="coerce")
+    out["Latitude"] = pd.to_numeric(df["Latitude"], errors="coerce")
+    out["Longitude"] = pd.to_numeric(df["Longitude"], errors="coerce")
+
+    geo = df["Geologic Environment"].astype(str).str.lower()
+
+    out["Setting"] = pd.NA
+    out.loc[geo.str.contains("spreading center|off axis spreading center", na=False), "Setting"] = "MOR"
+    out.loc[geo.str.contains("volcanic arc|convergent margin", na=False), "Setting"] = "ARC"
+    out.loc[geo.str.contains("seamount|intraplate craton|intraplate off-craton", na=False), "Setting"] = "HOTSPOT"
+
+    out = out.dropna(subset=["Setting", "SiO2", "Age_Ma"]).copy()
+    return out
 
 # --- Qin filter to Extend Hotspot Data ---
 # --- Qin hotspot subset search ---
@@ -363,7 +397,9 @@ qin_hotspot["SiO2"] = pd.to_numeric(qin_hotspot["SIO2(WT%)"], errors="coerce")
 qin_hotspot["TiO2"] = pd.to_numeric(qin_hotspot["TIO2(WT%)"], errors="coerce")
 qin_hotspot["MgO"] = pd.to_numeric(qin_hotspot["MGO(WT%)"], errors="coerce")
 
-qin_hotspot = qin_hotspot[["SiO2", "TiO2", "MgO", "Age_Ma", "Latitude", "Longitude", "Setting"]]
+qin_hotspot = qin_hotspot[
+    ["SiO2", "TiO2", "MgO", "Age_Ma", "Latitude", "Longitude", "Setting"]
+]
 
 
 # Extract and organize data
@@ -374,6 +410,13 @@ print({k: v.shape for k, v in dfs.items()})
 arc_age = extract_arc_age(dfs["ARC_AGE"])
 tornare = extract_tornare()
 mccoy = extract_mccoy()
+
+petdb = extract_petdb()
+
+print("\n==== PETDB ====")
+print(petdb.shape)
+print(petdb["Setting"].value_counts())
+print(petdb.head())
 
 print("\n==== TORNARE ====")
 print(tornare.shape)
@@ -404,8 +447,20 @@ if "Rock_type" in dfs["ARC"].columns:
 
     arc = arc.loc[keep].copy()
 
-
-df_all = pd.concat([morb, oib, arc, arc_age, tornare, mccoy, qin_hotspot], ignore_index=True)
+#Build df_all to concat data
+df_all = pd.concat(
+    [
+        morb,
+        oib,
+        arc,
+        arc_age,
+        tornare,
+        mccoy,
+        qin_hotspot,
+        petdb,
+    ],
+    ignore_index=True
+)
 
 df_all = df_all.dropna(subset=["SiO2", "Age_Ma"]).copy()
 
@@ -430,6 +485,7 @@ print("Saved cleaned dataset to:", OUTPUT_DATA / "cleaned_dataset.csv")
 bin_size = 50
 df_all["Age_Bin"] = ((df_all["Age_Ma"] // bin_size) * bin_size) + (bin_size / 2)
 
+
 stats = (
     df_all.groupby(["Setting", "Age_Bin"])["SiO2"]
     .agg(
@@ -453,13 +509,15 @@ print(morb[["Age_Ma", "SiO2"]].head(20))
 
 # Mapping sequence
 import plotly.express as px
-from pathlib import Path
-
-map_df = df_all.dropna(subset=["Latitude", "Longitude", "Age_Ma"]).copy()
-map_df["Setting"] = map_df["Setting"].replace({"MOR": "MORB"})
 
 MAP_DIR = BASE_DIR / "figures"
 MAP_DIR.mkdir(parents=True, exist_ok=True)
+
+map_df = df_all.dropna(subset=["Latitude", "Longitude", "Age_Bin"]).copy()
+map_df["Setting"] = map_df["Setting"].replace({"MOR": "MORB"})
+
+# Keep bin order consistent across all maps
+bin_order = sorted(map_df["Age_Bin"].dropna().unique().tolist())
 
 for setting in ["MORB", "ARC", "HOTSPOT"]:
     sub = map_df[map_df["Setting"] == setting].copy()
@@ -468,18 +526,27 @@ for setting in ["MORB", "ARC", "HOTSPOT"]:
         print(f"No coordinate data available for {setting}")
         continue
 
+    sub["Age_Bin"] = pd.Categorical(sub["Age_Bin"], categories=bin_order, ordered=True)
+
     fig = px.scatter_geo(
         sub,
         lat="Latitude",
         lon="Longitude",
-        color="Age_Ma",
-        color_continuous_scale="Viridis",
+        color="Age_Bin",
+        category_orders={"Age_Bin": bin_order},
+        color_discrete_sequence=px.colors.qualitative.Bold,
         projection="natural earth",
-        title=f"{setting} samples colored by age",
-        hover_data=["Age_Ma", "SiO2", "TiO2", "MgO", "Source"],
+        title=f"{setting} samples coloured by 50 Ma age bin",
+        hover_data=["Age_Ma", "Age_Bin", "SiO2", "TiO2", "MgO", "Source"],
     )
 
-    fig.update_traces(marker=dict(size=6, opacity=0.8))
+    fig.update_traces(
+    marker=dict(
+        size=8,
+        opacity=1.0,
+        line=dict(width=0.8, color="black")
+    )
+)
     fig.update_geos(
         showland=True,
         landcolor="rgb(240,240,240)",
@@ -499,17 +566,51 @@ webbrowser.open(out_html.as_uri())
 # Plotting sequence
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(8, 5))
+def plot_element_vs_age(df: pd.DataFrame, element: str, outpath: Path, ylabel: str | None = None):
 
-for setting in stats["Setting"].unique():
-    sub = stats[stats["Setting"] == setting]
-    plt.plot(sub["Age_Bin"], sub["median"], marker="o", label=setting)
-    plt.fill_between(sub["Age_Bin"], sub["q25"], sub["q75"], alpha=0.2)
+    if ylabel is None:
+        ylabel = element
 
-plt.gca().invert_xaxis()
-plt.xlabel("Age (Ma, bin center)")
-plt.ylabel("SiO2")
-plt.legend()
-FIG_DIR.mkdir(parents=True, exist_ok=True)
-plt.savefig(FIG_DIR / "sio2_vs_age.png", dpi=300)
-plt.show()
+    stats = (
+        df.dropna(subset=[element, "Age_Bin"])
+        .groupby(["Setting", "Age_Bin"])[element]
+        .agg(
+            median="median",
+            q25=lambda x: x.quantile(0.25),
+            q75=lambda x: x.quantile(0.75),
+        )
+        .reset_index()
+        .sort_values(["Setting", "Age_Bin"])
+    )
+
+    plt.figure(figsize=(8, 5))
+
+    for setting in stats["Setting"].unique():
+        sub = stats[stats["Setting"] == setting]
+
+        plt.plot(
+            sub["Age_Bin"],
+            sub["median"],
+            marker="o",
+            label=setting
+        )
+
+        plt.fill_between(
+            sub["Age_Bin"],
+            sub["q25"],
+            sub["q75"],
+            alpha=0.2
+        )
+
+    plt.gca().invert_xaxis()
+    plt.xlabel("Age (Ma, bin center)")
+    plt.ylabel(ylabel)
+    plt.legend()
+    plt.tight_layout()
+
+    plt.savefig(outpath, dpi=300)
+    plt.show()
+plot_element_vs_age(df_all, "SiO2", FIG_DIR / "sio2_vs_age.png", ylabel="SiO2")
+plot_element_vs_age(df_all, "MgO", FIG_DIR / "mgo_vs_age.png", ylabel="MgO")
+plot_element_vs_age(df_all, "TiO2", FIG_DIR / "tio2_vs_age.png", ylabel="TiO2")
+plot_element_vs_age(df_all, "K2O", FIG_DIR / "k2o_vs_age.png", ylabel="K2O")
