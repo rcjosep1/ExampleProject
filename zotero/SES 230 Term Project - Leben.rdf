@@ -1,0 +1,2287 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://www.degruyter.com/document/doi/10.2138/am.2008.2955/html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-004X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hazen</foaf:surname>
+                        <foaf:givenName>R. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Papineau</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bleeker</foaf:surname>
+                        <foaf:givenName>W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Downs</foaf:surname>
+                        <foaf:givenName>R. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ferry</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCoy</foaf:surname>
+                        <foaf:givenName>T. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sverjensky</foaf:surname>
+                        <foaf:givenName>D. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_715"/>
+        <dc:title>Mineral evolution</dc:title>
+        <dc:date>2008-11-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.degruyter.com/document/doi/10.2138/am.2008.2955/html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-05 06:57:22</dcterms:dateSubmitted>
+        <bib:pages>1693-1720</bib:pages>
+        <z:citationKey>hazenMineralEvolution2008</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-004X">
+        <prism:volume>93</prism:volume>
+        <dc:title>American Mineralogist</dc:title>
+        <dc:identifier>DOI 10.2138/am.2008.2955</dc:identifier>
+        <prism:number>11-12</prism:number>
+        <dcterms:alternative>American Mineralogist</dcterms:alternative>
+        <dc:identifier>ISSN 0003-004X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_715">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/715/Hazen et al. - 2008 - Mineral evolution.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0012825225001679">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00128252"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ponomar</foaf:surname>
+                        <foaf:givenName>Vitalii</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gavryliv</foaf:surname>
+                        <foaf:givenName>Liubomyr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_717"/>
+        <dc:title>Unveiling carbonate mineral evolution across geological timescales using an integrated mineral database approach</dc:title>
+        <dc:date>01/2026</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0012825225001679</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-05 07:23:42</dcterms:dateSubmitted>
+        <bib:pages>105206</bib:pages>
+        <z:citationKey>ponomarUnveilingCarbonateMineral2026</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00128252">
+        <prism:volume>272</prism:volume>
+        <dc:title>Earth-Science Reviews</dc:title>
+        <dc:identifier>DOI 10.1016/j.earscirev.2025.105206</dc:identifier>
+        <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+        <dc:identifier>ISSN 00128252</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_717">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/717/Ponomar and Gavryliv - 2026 - Unveiling carbonate mineral evolution across geological timescales using an integrated mineral datab.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/0012821X77901935">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0012821X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pearce</foaf:surname>
+                        <foaf:givenName>T.H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gorman</foaf:surname>
+                        <foaf:givenName>B.E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birkett</foaf:surname>
+                        <foaf:givenName>T.C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_949"/>
+        <link:link rdf:resource="#item_895"/>
+        <dc:title>The relationship between major element chemistry and tectonic environment of basic and intermediate volcanic rocks</dc:title>
+        <dc:date>8/1977</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/0012821X77901935</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-08 21:10:55</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>121-132</bib:pages>
+        <z:citationKey>pearceRelationshipMajorElement1977</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0012821X">
+        <prism:volume>36</prism:volume>
+        <dc:title>Earth and Planetary Science Letters</dc:title>
+        <dc:identifier>DOI 10.1016/0012-821X(77)90193-5</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Earth and Planetary Science Letters</dcterms:alternative>
+        <dc:identifier>ISSN 0012821X</dc:identifier>
+    </bib:Journal>
+   <bib:Memo rdf:about="#item_949"><rdf:value></rdf:value></bib:Memo>
+    <z:Attachment rdf:about="#item_895">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/895/Pearce et al. - 1977 - The relationship between major element chemistry and tectonic environment of basic and intermediate.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/001282527690012X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>12</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/0012-8252(76)90012-X</dc:identifier>
+                <prism:number>4</prism:number>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Condie</foaf:surname>
+                        <foaf:givenName>K</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_899"/>
+        <dc:title>Trace-element geochemistry of archean greenstone belts</dc:title>
+        <dc:date>11/1976</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/001282527690012X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-08 21:28:57</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>393-417</bib:pages>
+        <z:citationKey>condieTraceelementGeochemistryArchean1976</z:citationKey>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_899">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/899/Condie - 1976 - Trace-element geochemistry of archean greenstone belts.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S001282522300106X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>241</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/j.earscirev.2023.104417</dc:identifier>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vandenburg</foaf:surname>
+                        <foaf:givenName>Eric D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nebel</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smithies</foaf:surname>
+                        <foaf:givenName>R. Hugh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Capitanio</foaf:surname>
+                        <foaf:givenName>Fabio A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>Laura</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cawood</foaf:surname>
+                        <foaf:givenName>Peter A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millet</foaf:surname>
+                        <foaf:givenName>Marc-Alban</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruand</foaf:surname>
+                        <foaf:givenName>Emilie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moyen</foaf:surname>
+                        <foaf:givenName>Jean-François</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Xueying</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nebel-Jacobsen</foaf:surname>
+                        <foaf:givenName>Yona</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_903"/>
+        <dc:title>Spatial and temporal control of Archean tectonomagmatic regimes</dc:title>
+        <dc:date>06/2023</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S001282522300106X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-29 18:39:02</dcterms:dateSubmitted>
+        <bib:pages>104417</bib:pages>
+        <z:citationKey>vandenburgSpatialTemporalControl2023</z:citationKey>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_903">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/903/Vandenburg et al. - 2023 - Spatial and temporal control of Archean tectonomagmatic regimes.pdf"/>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://archimer.ifremer.fr/doc/00903/101531/112361.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-29 18:39:24</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_994">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>76</prism:volume>
+                <dc:title>Journal of Geophysical Research</dc:title>
+                <prism:number>23</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kieffer</foaf:surname>
+                        <foaf:givenName>Susan Werner</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_995"/>
+        <dcterms:isReferencedBy rdf:resource="#item_996"/>
+        <dcterms:isReferencedBy rdf:resource="#item_997"/>
+        <dcterms:isReferencedBy rdf:resource="#item_998"/>
+        <dcterms:isReferencedBy rdf:resource="#item_999"/>
+        <dc:title>Shock Metamorphism Of Coconino Sandstone at Meteor Crater, Arizona</dc:title>
+        <dc:date>August 10, 1971</dc:date>
+        <bib:pages>5450-5073</bib:pages>
+        <z:citationKey>kiefferShockMetamorphismCoconino1971</z:citationKey>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_995">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22kiefferShockMetamorphismCoconino1971%22%2C%22container-title%22%3A%22Journal%20of%20Geophysical%20Research%22%2C%22issue%22%3A%2223%22%2C%22page%22%3A%225450-5073%22%2C%22title%22%3A%22Shock%20Metamorphism%20Of%20Coconino%20Sandstone%20at%20Meteor%20Crater%2C%20Arizona%22%2C%22volume%22%3A%2276%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kieffer%22%2C%22given%22%3A%22Susan%20Werner%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221971%22%2C8%2C10%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22annotationKey%22%3A%229TZETD2I%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225462%22%2C%22position%22%3A%7B%22pageIndex%22%3A13%2C%22rects%22%3A%5B%5B42.12%2C258.297%2C231.702%2C266.622%5D%2C%5B40.92%2C247.572%2C234.612%2C255.564%5D%2C%5B41.04%2C236.652%2C126.016%2C244.644%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225462%22%7D%7D&quot;&gt;“(1) remnant quartz grains, (2) symplekticregions, (3) opaque regions, (4) vesicular glass cores,and (5) calcite”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225462%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kieffer, 1971, p. 5462&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_996">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%2C%22type%22%3A%22article-journal%22%2C%22container-title%22%3A%22JOURNAL%20OF%20GEOPHYSICAL%20RESEARCH%22%2C%22issue%22%3A%2223%22%2C%22page%22%3A%225450-5073%22%2C%22title%22%3A%22Shock%20Metamorphism%20Of%20Coconino%20Sandstone%22%2C%22volume%22%3A%2276%22%2C%22author%22%3A%5B%7B%22family%22%3A%22KIEFFER%22%2C%22given%22%3A%22SUSAN%20WERNER%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221971%22%2C8%2C10%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Classes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22annotationKey%22%3A%229869UYJY%22%2C%22color%22%3A%22%23f799d1%22%2C%22pageLabel%22%3A%225456%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B49.08%2C355.944%2C108.541%2C366.432%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225456%22%7D%7D&quot;&gt;“Class 1a rock”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225456%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;KIEFFER, 1971, p. 5456&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Weakly shocked, no high pressure phases, 95% more quartz, and a) remnant porosity and b) no remnant porosity&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;(a) do not differ in macroscopic appearance from unshocked CSS, less porosity&lt;/p&gt;
+&lt;p&gt;(b) fragile, fine-grained, and friable (dry), fracturing (concussion)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22annotationKey%22%3A%2224RLHCJX%22%2C%22color%22%3A%22%238fdef9%22%2C%22pageLabel%22%3A%225457%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B252.24%2C448.644%2C310.64%2C457.062%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225457%22%7D%7D&quot;&gt;“Class 2 rocks.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;moderately shocked, 80-95% quartz, 2-5% coesite, 3-10% glass, no porosity, interlocked, grain size reduced (slightly), change in shape w/o fracturing and strain suggests plastic deformation compression, isotropic regions,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22annotationKey%22%3A%22GN8NUVKI%22%2C%22color%22%3A%22%237df066%22%2C%22pageLabel%22%3A%225459%22%2C%22position%22%3A%7B%22pageIndex%22%3A10%2C%22rects%22%3A%5B%5B253.56%2C616.02%2C318.576%2C626.37%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225459%22%7D%7D&quot;&gt;“Class 3 rocks.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;moderately shocked 45-80% quartz, 18-32% coesite, 0-20% glass, boundaries between grains unclear, plastic deformation removes void spaces, symplektic region surrounding quartz&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22pageLabel%22%3A%225462%22%2C%22position%22%3A%7B%22pageIndex%22%3A13%2C%22rects%22%3A%5B%5B50.04%2C402.01152%2C103.84703999999999%2C410.00352000000004%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225462%22%7D%7D&quot;&gt;“Class 4 rocks”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;strongly shocked, 15-45% quartz, 10-30% coesite, 20-75% glass, elongated, aligned fractures/vesicles, calcite in fractures/vesicles, &lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22pageLabel%22%3A%225462%22%2C%22position%22%3A%7B%22pageIndex%22%3A13%2C%22rects%22%3A%5B%5B48.12%2C478.00056%2C80.29056%2C485.32656%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225462%22%7D%7D&quot;&gt;“Fig. 11a”&lt;/span&gt;, bordered symplektic/opaque, vesicles indicate gas was present as pressure was released- probs water,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22pageLabel%22%3A%225463%22%2C%22position%22%3A%7B%22pageIndex%22%3A14%2C%22rects%22%3A%5B%5B48%2C161.64732%2C104.83487999999998%2C170.19432%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225463%22%7D%7D&quot;&gt;“Class 5 rock”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;very strongly shocked, 0-15% quartz, 0-5% coesite, 80-100% glass, flowed stretched glass, vesicles, remnant grains of quartz,&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;no detectable to trace amounts of stishovite in all classes&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225455%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;KIEFFER, 1971, p. 5455&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_997">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%2C%22type%22%3A%22article-journal%22%2C%22container-title%22%3A%22JOURNAL%20OF%20GEOPHYSICAL%20RESEARCH%22%2C%22issue%22%3A%2223%22%2C%22page%22%3A%225450-5073%22%2C%22title%22%3A%22SHOCK%20METAMORPHIS1Vf%20OF%20COCONINO%20SANDSTONE%22%2C%22volume%22%3A%2276%22%2C%22author%22%3A%5B%7B%22family%22%3A%22KIEFFER%22%2C%22given%22%3A%22SUSAN%20WERNER%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221971%22%2C8%2C10%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22pageLabel%22%3A%225466%22%2C%22position%22%3A%7B%22pageIndex%22%3A17%2C%22rects%22%3A%5B%5B311.52%2C164.48184%2C437.37431999999995%2C172.69584%5D%2C%5B243.24%2C153.75636%2C275.9142%2C161.63736%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225466%22%7D%7D&quot;&gt;“energy deposition in a porous material”&lt;/span&gt; &lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_998">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%2C%22type%22%3A%22article-journal%22%2C%22container-title%22%3A%22JOURNAL%20OF%20GEOPHYSICAL%20RESEARCH%22%2C%22issue%22%3A%2223%22%2C%22page%22%3A%225450-5073%22%2C%22title%22%3A%22Shock%20Metamorphism%20Of%20Coconino%20Sandstone%22%2C%22volume%22%3A%2276%22%2C%22author%22%3A%5B%7B%22family%22%3A%22KIEFFER%22%2C%22given%22%3A%22SUSAN%20WERNER%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221971%22%2C8%2C10%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;how vesicles in glassy?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FMFFKC85C%22%2C%22pageLabel%22%3A%225463%22%2C%22position%22%3A%7B%22pageIndex%22%3A14%2C%22rects%22%3A%5B%5B193.79999999999998%2C538.04184%2C231.30023999999995%2C546.25584%5D%2C%5B38.88%2C527.41152%2C228.83712%2C535.4035200000001%5D%2C%5B38.52%2C515.91216%2C229.79999999999995%2C524.34816%5D%2C%5B38.64%2C505.30668000000003%2C231.83460000000005%2C513.40968%5D%2C%5B38.76%2C494.00183999999996%2C229.86864%2C502.21583999999996%5D%2C%5B38.52%2C483.01152%2C231.6096%2C491.00352000000004%5D%2C%5B38.64%2C471.92184%2C233.30615999999995%2C480.13584%5D%2C%5B38.64%2C461.17152%2C228.12096000000003%2C469.16352%5D%2C%5B38.52%2C449.98668000000004%2C229.6182%2C458.08968%5D%2C%5B38.4%2C438.97152%2C229.9248%2C446.96352%5D%2C%5B38.4%2C429.81444%2C227.48352000000003%2C436.36343999999997%5D%2C%5B38.28%2C416.577%2C228.816%2C424.902%5D%2C%5B38.4%2C405.70668%2C228.90000000000003%2C413.80967999999996%5D%2C%5B38.52%2C394.497%2C230.37900000000002%2C402.822%5D%2C%5B38.4%2C383.60184%2C228.33431999999996%2C391.81584%5D%2C%5B38.4%2C372.70668%2C229.84404%2C380.80967999999996%5D%2C%5B38.16%2C361.64184%2C52.962959999999995%2C369.85584%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225463%22%7D%7D&quot;&gt;“Kennedy et al. demonstrated that a critical end point for the univariant equilibrium melting curve of the Si02-H.•O system exists at 9.7 kb and 1080øC. Thus, at pressures greater than 10 kb and temperatures greater than 1100øC, complete intermixing of the SiO• and H•O phases occurs. If water were incorporated into the SiO2 at pressures above 10 kb, some, water would exsolve and form vesicles on release to zero pressure. These observations on the existence of vesicles and on the proximity of fused SiO• to quartz suggest that water in the pores of the rock initially may have played an important role in allowing parts of the rock to melt at relatively low temperatures because they were wet”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22locator%22%3A%225463%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;KIEFFER, 1971, p. 5463&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;SO: water exsolves forming vesicles as water was incorporated into SiO2. &lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_999">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FACVYL98D%22%2C%22type%22%3A%22article-journal%22%2C%22container-title%22%3A%22JOURNAL%20OF%20GEOPHYSICAL%20RESEARCH%22%2C%22issue%22%3A%2223%22%2C%22page%22%3A%225450-5073%22%2C%22title%22%3A%22SHOCK%20METAMORPHIS1Vf%20OF%20COCONINO%20SANDSTONE%22%2C%22volume%22%3A%2276%22%2C%22author%22%3A%5B%7B%22family%22%3A%22KIEFFER%22%2C%22given%22%3A%22SUSAN%20WERNER%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221971%22%2C8%2C10%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Meteor Crater in Canyon Diablo region, S of Colorado Plateau&lt;/p&gt;
+&lt;p&gt;Coconino SS, Toroweap, Kaibab LM, and Moenkopi FM&lt;/p&gt;
+&lt;p&gt;overturned flap (with inverted stratigraphy (5451-5452&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="#item_1000">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><prism:volume>2040</prism:volume></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kring</foaf:surname>
+                        <foaf:givenName>David A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1001"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1002"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1003"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1004"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1005"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1006"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1007"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1008"/>
+        <dc:title>Guidebook to the Geology of Barringer Meteorite Crater, Arizona (a k a Meteor Crater). Second edition</dc:title>
+        <dc:date>July 2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <z:citationKey>kringGuidebookGeologyBarringer2017</z:citationKey>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1001">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22kringGuidebookGeologyBarringer2017%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22volume%22%3A%222040%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22230%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 230&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1002">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22LXYF3AFG%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%2253%22%2C%22position%22%3A%7B%22pageIndex%22%3A63%2C%22rects%22%3A%5B%5B72%2C702.683%2C344.895%2C715.267%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2253%22%7D%7D&quot;&gt;“5. Shock Metamorphism and Impact Melting”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2253%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 53&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;rock flour- pulverized Coco SS, fragmented quartz far smaller than unaffected grains, 15-20% of ejecta is rock flour&lt;/p&gt;
+&lt;p&gt;Surviving rock fragments of Coco &lt;/p&gt;
+&lt;p&gt;-Variety A: lighty-moderatly shocked, greater density that unshock, distributed in rock flour, ranges from 1 in to 12 ft, far more abundant than B&lt;/p&gt;
+&lt;p&gt;-Variety B: melted, vesicular, and float on water, may just turn to rock flour TBH&lt;/p&gt;
+&lt;p&gt;most energy from impact is used collapsing pore space that few solid state transformations happen &lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1003">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22kringGuidebookGeologyBarringer2017%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22JIKL3K3S%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22103%22%2C%22position%22%3A%7B%22pageIndex%22%3A113%2C%22rects%22%3A%5B%5B405.574%2C532.201%2C503.995%2C541.898%5D%2C%5B72%2C519.24%2C537.601%2C528.937%5D%2C%5B72%2C506.279%2C95.769%2C515.976%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22103%22%7D%7D&quot;&gt;“A lot of the meteoritic material was oxidized. It is sometimes simply called oxidized iron, but large masses are also called shale balls.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22103%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 103&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22B7LYNW2Q%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%2258%22%2C%22position%22%3A%7B%22pageIndex%22%3A68%2C%22rects%22%3A%5B%5B254.668%2C642.487%2C537.546%2C652.184%5D%2C%5B71.989%2C629.526%2C495.737%2C639.223%5D%2C%5B71.989%2C616.565%2C367.662%2C626.262%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2258%22%7D%7D&quot;&gt;“Ca,Mg-rich (9 to 20 wt%) silicate glasses and crystalline calcite globules within silicate glass have been reported in an area Shoemaker mapped as alluvium, but reinterpreted to be an ejected impact breccia (Osinski et al., 2015).”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2258%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 58&lt;/span&gt;)&lt;/span&gt; (indicate kaibab melted) &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1004">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22FW4IRAVU%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22103%22%2C%22position%22%3A%7B%22pageIndex%22%3A113%2C%22rects%22%3A%5B%5B222.994%2C363.709%2C515.841%2C373.405%5D%2C%5B71.989%2C350.748%2C510.144%2C360.444%5D%2C%5B71.989%2C337.787%2C519.352%2C347.484%5D%2C%5B71.989%2C324.826%2C538.76%2C334.523%5D%2C%5B71.989%2C311.865%2C513.214%2C321.562%5D%2C%5B71.989%2C298.904%2C409.669%2C308.601%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22103%22%7D%7D&quot;&gt;“Collisions between planetesimals produced impact melt pools that differentiated (Goldstein et al., 2014; Worsham et al., 2017), allowing the denser metal and sulfide components to sink and, thus, collate into significant volumes. Based on the cooling rates of the iron meteorites, I estimate the craters were 150 to 300 km in diameter on planetesimals &amp;gt;300 km diameter. At some later date, the planetesimals were disrupted, producing iron metal-dominated asteroids, one of which eventually collided with Earth to produce Barringer Meteorite Crater.”&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%228L5RXPL9%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22105%22%2C%22position%22%3A%7B%22pageIndex%22%3A115%2C%22rects%22%3A%5B%5B420.436%2C590.648%2C519.211%2C600.345%5D%2C%5B72.003%2C577.687%2C218.647%2C587.384%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22105%22%7D%7D&quot;&gt;“original asteroid had a mass of 100,000 to 200,000 tons.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22105%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 105&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1005">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22FEIM7MUW%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%2235%22%2C%22position%22%3A%7B%22pageIndex%22%3A45%2C%22rects%22%3A%5B%5B108.104%2C364.669%2C512.4%2C374.365%5D%2C%5B71.981%2C351.708%2C231.763%2C361.404%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2235%22%7D%7D&quot;&gt;“complex breccia deposits that Shoemaker (1960) mapped as three units: authigenic breccia, allogenic breccia, and mixed debris.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2235%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 35&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;authigenic- monomict, intraformational caused by disruptive shear, in faults&lt;/p&gt;
+&lt;p&gt;allogenic- could be single or multiple formations, flowed down crater walls, shocked melted Coco and meteoritic debris &lt;/p&gt;
+&lt;p&gt;mixed debris- contains all, fall out material blasted up then fell back down, &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1006">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22kringGuidebookGeologyBarringer2017%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22volume%22%3A%222040%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22GTM22ZS3%22%2C%22color%22%3A%22%23f19837%22%2C%22pageLabel%22%3A%2279%22%2C%22position%22%3A%7B%22pageIndex%22%3A89%2C%22rects%22%3A%5B%5B120.852%2C376.67%2C508.433%2C386.366%5D%2C%5B72%2C363.709%2C533.847%2C373.405%5D%2C%5B72%2C350.748%2C536.905%2C360.444%5D%2C%5B72%2C337.787%2C250.859%2C347.484%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2279%22%7D%7D&quot;&gt;“In structural terms, the overturned rim is a syncline with a circumferential axial trace or compound syncline, because there are actually two folds involved. The first is associated with the uplift and outward tilting of the beds in the crater walls (as described in the last chapter) and the second is with the complete overturning of those strata.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2279%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 79&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1007">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22kringGuidebookGeologyBarringer2017%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;ROCK FLOUR&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22pageLabel%22%3A%22106%22%2C%22position%22%3A%7B%22pageIndex%22%3A116%2C%22rects%22%3A%5B%5B94.56%2C305.53195312500003%2C536.19312%2C315.22848%5D%2C%5B72.00528%2C292.57099312500003%2C524.2699199999998%2C302.26752%5D%2C%5B72.00528%2C279.61003312500003%2C532.3953600000001%2C289.30656%5D%2C%5B72.00527999999997%2C266.64907312500003%2C528.2222399999997%2C276.3456%5D%2C%5B72.00527999999997%2C253.68811312500003%2C516.7296%2C263.38464%5D%2C%5B72.00527999999997%2C240.72715312500003%2C506.72736000000003%2C250.42368000000002%5D%2C%5B72.00527999999997%2C227.76619312500003%2C229.79999999999993%2C237.46272000000002%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22106%22%7D%7D&quot;&gt;“The fate of the missing material has been at the center of considerable debate. Barringer, of course, thought it was buried beneath the crater floor. He considered the alternative possibility that the object was vaporized (Barringer, 1910). In that case, he reasoned, the vaporized projectile and target materials would have re-condensed, producing a mass of material (perhaps similar to rock flour) that was stained with iron and nickel oxides. Since this is not observed, he argued the mass must still exist inside the crater. (At this point in the development of his model, he also thought the asteroid was a cluster of fragments rather than a solid mass.)”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22106%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 106&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22pageLabel%22%3A%22223%22%2C%22position%22%3A%7B%22pageIndex%22%3A233%2C%22rects%22%3A%5B%5B120.84095999999997%2C442.67371312500006%2C509.6255999999999%2C452.37024%5D%2C%5B71.98895999999996%2C429.71275312500006%2C510.6744%2C439.40928%5D%2C%5B71.98895999999996%2C416.75179312500006%2C533.1407999999998%2C426.44832%5D%2C%5B71.98895999999996%2C403.79083312500006%2C528.6696%2C413.48736%5D%2C%5B71.9889599999999%2C390.82987312500006%2C514.2071999999998%2C400.5264%5D%2C%5B71.98895999999985%2C377.86891312500006%2C344.0587199999998%2C387.56544%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22223%22%7D%7D&quot;&gt;“At the top of the gap, just a few feet from the public trail, an incredibly white outcrop is visible (Fig. 19.2). The material in the outcrop is weakly consolidated. It is a mass of shocked and ejected sandstone that is transitional to a type of rock flour that was described by Barringer (1905). The material in the outcrop is heterogeneously damaged. Cores of surviving Coconino with traces of crossbedding can be found in it. Outcrops like this one also contain his Variety A shock-metamorphosed sandstone, which has a higher density than normal sandstone.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 223&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22pageLabel%22%3A%22230%22%2C%22position%22%3A%7B%22pageIndex%22%3A240%2C%22rects%22%3A%5B%5B177.59759999999986%2C111.08779312499995%2C510.34320000000014%2C120.78431999999995%5D%2C%5B71.96687999999989%2C98.12683312499995%2C527.4772799999997%2C107.82335999999995%5D%2C%5B71.96687999999989%2C85.16587312499995%2C264.73631999999986%2C94.86239999999995%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22230%22%7D%7D&quot;&gt;“Even farther to the west are the “Silica Pits,” which are composed of finely comminuted Coconino. At that location, fractured versions of the blocks at our feet occur in a massive and brilliantly white matrix of “rock flour.””&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22230%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 230&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22B65IMTSW%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%2253%22%2C%22position%22%3A%7B%22pageIndex%22%3A63%2C%22rects%22%3A%5B%5B457.947%2C285.943%2C517.961%2C295.64%5D%2C%5B71.967%2C272.982%2C537.457%2C282.679%5D%2C%5B71.967%2C260.021%2C283.107%2C269.718%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2253%22%7D%7D&quot;&gt;“a quantitative microscopic study of the rock flour and the relative proportions of different types of silica components in it has not been done to evaluate this suggestion.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%2253%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 53&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1008">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%2C%22type%22%3A%22article-journal%22%2C%22language%22%3A%22en%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Guidebook%20to%20the%20Geology%20of%20Barringer%20Meteorite%20Crater%2C%20Arizona%20(a%20k%20a%20Meteor%20Crater).%20Second%20edition%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Kring%22%2C%22given%22%3A%22David%20A%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C7%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Sediment is ~1,070 m thick, overlie basement&lt;/p&gt;
+&lt;p&gt;Coconino SS, Toroweap FM, Kaibab FM, and Moenkopi FM&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22KSMUSRFJ%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A17%2C%22rects%22%3A%5B%5B89.979%2C436.625%2C183.587%2C446.321%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%227%22%7D%7D&quot;&gt;“Coconino Sandstone.”&lt;/span&gt; white, fine grained, saccharoidal quartzose sandstone of massive beds of cross bedding. 210-240 m thick&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22J9PILI4P%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A17%2C%22rects%22%3A%5B%5B192.342%2C436.625%2C478.631%2C446.321%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%227%22%7D%7D&quot;&gt;“The Coconino Sandstone is white, fine-grained, and saccharoidal”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 7&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%22DNV4CKAA%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A17%2C%22rects%22%3A%5B%5B239.538%2C423.907%2C473.21%2C433.603%5D%2C%5B71.973%2C411.31%2C156.716%2C421.007%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%227%22%7D%7D&quot;&gt;“quartzose sandstone that occurs in massive beds with cross-stratification.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 7&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFFVSAPIC%22%2C%22annotationKey%22%3A%228U2C2JRW%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22112%22%2C%22position%22%3A%7B%22pageIndex%22%3A122%2C%22rects%22%3A%5B%5B345.594%2C304.323%2C505.82%2C313.071%5D%2C%5B72.59%2C292.56%2C524.465%2C301.308%5D%2C%5B72.59%2C280.797%2C481.408%2C289.545%5D%2C%5B72.59%2C269.035%2C501.428%2C277.783%5D%2C%5B72.59%2C257.272%2C264.788%2C266.02%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22112%22%7D%7D&quot;&gt;“Furthermore, lightly-shocked meteorites appear to come from a shallower depth (mean of 0.8 m) than moderately- to heavily-shocked meteorites (mean of 1.3 m depth). The lightly-shocked meteorites are distributed on the plain surrounding the crater, while moderately- to heavily-shocked meteorites are concentrated near the crater rim. Almost all of the diamondbearing specimens were found on the crater rim.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FFQK5G7KA%22%5D%2C%22locator%22%3A%22112%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Kring, 2017, p. 112&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="#item_1009">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>8</prism:volume>
+                <dc:title>Elements</dc:title>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jourdan</foaf:surname>
+                        <foaf:givenName>Fred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1010"/>
+        <dc:title>Elements. Impacts!</dc:title>
+        <z:citationKey>jourdanElementsImpacts</z:citationKey>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1010">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVHUXVJTT%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVHUXVJTT%22%2C%22type%22%3A%22article-journal%22%2C%22container-title%22%3A%22Elements%22%2C%22issue%22%3A%221%22%2C%22title%22%3A%22Elements.%20Impacts!%22%2C%22volume%22%3A%228%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Jourdan%22%2C%22given%22%3A%22Fred%22%7D%5D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;impact melt bearing impactities &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+large scale. sheets
+&lt;/li&gt;
+&lt;li&gt;
+small. m/cm. glassy. breccias 
+&lt;/li&gt;
+&lt;li&gt;
+injection dykes, 
+&lt;/li&gt;
+&lt;li&gt;
+mm/cm glassy regionally-globally 
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVHUXVJTT%22%5D%2C%22locator%22%3A%2228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Jourdan, p. 28&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="#item_1011">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Austin State University</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sumner</foaf:surname>
+                        <foaf:givenName>Christopher D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1012"/>
+        <dc:title>Stratigraphy of the Nothern Despositional Margin of the Coconino Sandstone, Northern Arizona and Southern Utah</dc:title>
+        <dc:date>May 1999</dc:date>
+        <z:citationKey>sumnerStratigraphyNothernDespositional1999</z:citationKey>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1012">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FWVJVXVWH%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FWVJVXVWH%22%2C%22type%22%3A%22article-journal%22%2C%22title%22%3A%22Stratigraphy%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Sumner%22%2C%22given%22%3A%22Christopher%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221999%22%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FBWFRAGZJ%22%2C%22annotationKey%22%3A%229QHL5YTW%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%2255%22%2C%22position%22%3A%7B%22pageIndex%22%3A72%2C%22rects%22%3A%5B%5B138.2%2C390.345%2C557.7%2C404.869%5D%2C%5B100.8%2C362.745%2C557.162%2C377.269%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FWVJVXVWH%22%5D%2C%22locator%22%3A%2255%22%7D%7D&quot;&gt;“Four types of diagenetic cement occur in the Coconino Sandstone. They include: syntaxial quartz overgrowths, chalcedony, calcite, and iron oxides.”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FWVJVXVWH%22%5D%2C%22locator%22%3A%2255%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Sumner, 1999, p. 55&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;calcite cement- patchy to complete pore-filling in over half of the SS. controlled by the amount of pressure dissolution, intense suturing, more often associated w medium grains than w fine grains &lt;/p&gt;
+&lt;p&gt;iron oxides- dust-rims and secondary stains &lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="#item_1013">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Grieve</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Traces of Catastrophe</dc:title>
+        <z:citationKey>grieveTracesCatastrophe</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1014">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Osinski</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Impact Earth: A review of the terrestrial impact record</dc:title>
+        <dc:date>2022</dc:date>
+        <z:citationKey>osinskiImpactEarthReview2022a</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1015">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shoemaker</foaf:surname>
+                        <foaf:givenName>Eugene</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Impact Mechanics at Meteor Crater, Arizona</dc:title>
+        <dc:date>October 1959</dc:date>
+        <z:citationKey>shoemakerImpactMechanicsMeteor1959</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1016">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cemen</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>STRATIGRAPHY, GEOCHRONOLOGY AND STRUCTURE OF THE SELECTED AREAS OF THE NORTHERN DEATH VALLEY REGION, EASTERN CALIFORNIA - WESTERN NEVADA, AND IMPLICATIONS CONCERNING CENOZOIC TECTONICS OF THE REGION</dc:title>
+        <dc:date>1983</dc:date>
+        <z:citationKey>cemenSTRATIGRAPHYGEOCHRONOLOGYSTRUCTURE1983</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1017">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cemen</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>et al.</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Structural evolution of central Death Valley, California,  using new thermochronometry of the Badwater turtleback</dc:title>
+        <dc:date>2019</dc:date>
+        <z:citationKey>cemenStructuralEvolutionCentral2019</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1018">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:volume>7</prism:volume><dc:title>Answers Research</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Whitmore</foaf:surname>
+                        <foaf:givenName>John H</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Strom</foaf:surname>
+                        <foaf:givenName>Raymond</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheung</foaf:surname>
+                        <foaf:givenName>Stephen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garner</foaf:surname>
+                        <foaf:givenName>Paul A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1019"/>
+        <dc:title>The Peterology of the Coconino Sandstone (Permian), Arizona, USA</dc:title>
+        <dc:date>2014</dc:date>
+        <bib:pages>499-532</bib:pages>
+        <z:citationKey>whitmorePeterologyCoconinoSandstone2014</z:citationKey>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1019">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FZVF9RKZE%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FZVF9RKZE%22%2C%22type%22%3A%22article-journal%22%2C%22title%22%3A%22Petrology%20of%20Coconino%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Whitmore%22%2C%22given%22%3A%22John%22%7D%2C%7B%22family%22%3A%22et%20al%22%2C%22given%22%3A%22%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222014%22%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;CC is moderately sorted&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FBITBUBEU%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B249.8749%2C311.04571406250074%2C296.10689999999994%2C323.06719843750074%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FZVF9RKZE%22%5D%2C%22locator%22%3A%223%22%7D%7D&quot;&gt;“8+: ( :+A”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FZVF9RKZE%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Whitmore and et al, 2014, p. 3&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="https://www.nature.com/articles/230042a0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0028-0836,%201476-4687"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morgan</foaf:surname>
+                        <foaf:givenName>W. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Convection Plumes in the Lower Mantle</dc:title>
+        <dc:date>3/1971</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.nature.com/articles/230042a0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-26 18:08:41</dcterms:dateSubmitted>
+        <dc:rights>http://www.springer.com/tdm</dc:rights>
+        <bib:pages>42-43</bib:pages>
+        <z:citationKey>morganConvectionPlumesLower1971</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0028-0836,%201476-4687">
+        <prism:volume>230</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/230042a0</dc:identifier>
+        <prism:number>5288</prism:number>
+        <dcterms:alternative>Nature</dcterms:alternative>
+        <dc:identifier>ISSN 0028-0836, 1476-4687</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.nature.com/articles/244150a0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>244</prism:volume>
+                <dc:title>Nature</dc:title>
+                <dc:identifier>DOI 10.1038/244150a0</dc:identifier>
+                <prism:number>5412</prism:number>
+                <dcterms:alternative>Nature</dcterms:alternative>
+                <dc:identifier>ISSN 0028-0836, 1476-4687</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Handschumacher</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Formation of the Emperor Seamount Chain</dc:title>
+        <dc:date>7/1973</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.nature.com/articles/244150a0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-26 18:08:55</dcterms:dateSubmitted>
+        <dc:rights>http://www.springer.com/tdm</dc:rights>
+        <bib:pages>150-152</bib:pages>
+        <z:citationKey>handschumacherFormationEmperorSeamount1973</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1022">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:title>Geodynamics</dc:title>
+        <z:citationKey>Geodynamics</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="https://academic.oup.com/ismej/article/17/12/2415-2425/7506670">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1751-7362,%201751-7370"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dougherty</foaf:surname>
+                        <foaf:givenName>Peter Erdmann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Tue Kjærgaard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riber</foaf:surname>
+                        <foaf:givenName>Leise</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lading</foaf:surname>
+                        <foaf:givenName>Helen Helgå</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Forero-Junco</foaf:surname>
+                        <foaf:givenName>Laura Milena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kot</foaf:surname>
+                        <foaf:givenName>Witold</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raaijmakers</foaf:surname>
+                        <foaf:givenName>Jos M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hansen</foaf:surname>
+                        <foaf:givenName>Lars Hestbjerg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1024"/>
+        <dc:title>Widespread and largely unknown prophage activity, diversity, and function in two genera of wheat phyllosphere bacteria</dc:title>
+        <dcterms:abstract>Abstract
+            Environmental bacteria host an enormous number of prophages, but their diversity and natural functions remain largely elusive. Here, we investigate prophage activity and diversity in 63 Erwinia and Pseudomonas strains isolated from flag leaves of wheat grown in a single field. Introducing and validating Virion Induction Profiling Sequencing (VIP-Seq), we identify and quantify the activity of 120 spontaneously induced prophages, discovering that some phyllosphere bacteria produce more than 108 virions/mL in overnight cultures, with significant induction also observed in planta. Sequence analyses and plaque assays reveal E. aphidicola prophages contribute a majority of intraspecies genetic diversity and divide their bacterial hosts into antagonistic factions engaged in widespread microbial warfare, revealing the importance of prophage-mediated microdiversity. When comparing spontaneously active prophages with predicted prophages we also find insertion sequences are strongly correlated with non-active prophages. In conclusion, we discover widespread and largely unknown prophage diversity and function in phyllosphere bacteria.</dcterms:abstract>
+        <dc:date>2023-12-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/ismej/article/17/12/2415-2425/7506670</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-27 19:05:30</dcterms:dateSubmitted>
+        <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <bib:pages>2415-2425</bib:pages>
+        <z:citationKey>doughertyWidespreadLargelyUnknown2023</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1751-7362,%201751-7370">
+        <prism:volume>17</prism:volume>
+        <dc:title>The ISME Journal</dc:title>
+        <dc:identifier>DOI 10.1038/s41396-023-01547-1</dc:identifier>
+        <prism:number>12</prism:number>
+        <dc:identifier>ISSN 1751-7362, 1751-7370</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1024">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41396-023-01547-1.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-27 19:05:34</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1025">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>Contributions to Astrophysics</dc:title>
+                <prism:number>7</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rineheart</foaf:surname>
+                        <foaf:givenName>John S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Distribution of Meteoritic Debris About the Arizona Meteorite Crater</dc:title>
+        <dc:date>1958</dc:date>
+        <z:citationKey>rineheartDistributionMeteoriticDebris1958</z:citationKey>
+    </bib:Article>
+    <bib:Report rdf:about="#item_1026">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gaither</foaf:surname>
+                        <foaf:givenName>Tenielle A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gullikson</foaf:surname>
+                        <foaf:givenName>Amber L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hagerty</foaf:surname>
+                        <foaf:givenName>Justin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Characterizing Meteor Crater Impact Melts Through Geochemistry and Textural Analysis</dc:title>
+        <dc:date>2024</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:description>Series: Open-File Report</dc:description>
+        <z:citationKey>gaitherCharacterizingMeteorCrater2024</z:citationKey>
+        <z:type>Open-File Report</z:type>
+    </bib:Report>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0012825222001969">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>232</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/j.earscirev.2022.104112</dc:identifier>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osinski</foaf:surname>
+                        <foaf:givenName>Gordon R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grieve</foaf:surname>
+                        <foaf:givenName>Richard A.F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ferrière</foaf:surname>
+                        <foaf:givenName>Ludovic</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Losiak</foaf:surname>
+                        <foaf:givenName>Ania</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pickersgill</foaf:surname>
+                        <foaf:givenName>Annemarie E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cavosie</foaf:surname>
+                        <foaf:givenName>Aaron J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hibbard</foaf:surname>
+                        <foaf:givenName>Shannon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hill</foaf:surname>
+                        <foaf:givenName>Patrick J.A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bermudez</foaf:surname>
+                        <foaf:givenName>Juan Jaimes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marion</foaf:surname>
+                        <foaf:givenName>Cassandra L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Newman</foaf:surname>
+                        <foaf:givenName>Jennifer D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simpson</foaf:surname>
+                        <foaf:givenName>Sarah L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1028"/>
+        <link:link rdf:resource="#item_1029"/>
+        <dc:title>Impact Earth: A review of the terrestrial impact record</dc:title>
+        <dc:date>09/2022</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Impact Earth</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0012825222001969</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-29 06:48:56</dcterms:dateSubmitted>
+        <bib:pages>104112</bib:pages>
+        <z:citationKey>osinskiImpactEarthReview2022</z:citationKey>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1028">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVGISYF96%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVGISYF96%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22osinskiImpactEarthReview2022a%22%2C%22title%22%3A%22Impact%20Earth%3A%20A%20review%20of%20the%20terrestrial%20impact%20record%22%2C%22author%22%3A%5B%7B%22literal%22%3A%22Osinski%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222022%22%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FGN863399%22%2C%22annotationKey%22%3A%22KBJ3UHPW%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B306.593%2C70.314%2C557.674%2C79.165%5D%2C%5B306.593%2C59.883%2C557.663%2C68.734%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVGISYF96%22%5D%2C%22locator%22%3A%225%22%7D%7D&quot;&gt;““impactite” is “a collective term for all rocks affected by one or more hypervelocity impact(s) resulting from collision(s) of planetary bodies””&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FVGISYF96%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Osinski, 2022, p. 5&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1029">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Accepted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eprints.gla.ac.uk/279697/1/279697.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-29 06:49:01</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pubs.geoscienceworld.org/gsabulletin/article/18/1/493-504/2561">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0016-7606,%201943-2674"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fairchild</foaf:surname>
+                        <foaf:givenName>H. L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Origin of meteor crater (Coon butte), Arizona</dc:title>
+        <dc:date>1907-01-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.geoscienceworld.org/gsabulletin/article/18/1/493-504/2561</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-29 21:20:35</dcterms:dateSubmitted>
+        <bib:pages>493-504</bib:pages>
+        <z:citationKey>fairchildOriginMeteorCrater1907</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0016-7606,%201943-2674">
+        <prism:volume>18</prism:volume>
+        <dc:title>Geological Society of America Bulletin</dc:title>
+        <dc:identifier>DOI 10.1130/GSAB-18-493</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Geological Society of America Bulletin</dcterms:alternative>
+        <dc:identifier>ISSN 0016-7606, 1943-2674</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://pubs.geoscienceworld.org/gsa/lithosphere/article/11/4/436/570193/Structural-evolution-of-central-Death-Valley">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1941-8264"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sizemore</foaf:surname>
+                        <foaf:givenName>Travis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wielicki</foaf:surname>
+                        <foaf:givenName>Matthew M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Çemen</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stockli</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heizler</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robinson</foaf:surname>
+                        <foaf:givenName>Delores</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1032"/>
+        <dc:title>Structural evolution of central Death Valley, California, using new thermochronometry of the Badwater turtleback</dc:title>
+        <dcterms:abstract>Abstract
+            The Badwater turtleback, Copper Canyon turtleback, and Mormon Point turtleback are three anomalously smooth, ∼2-km-high basement structures in the Black Mountains of Death Valley, California. Their structural evolution is linked to the Cenozoic tectonic history of the region. To explore their evolution, we apply (U-Th)/He, Ar/Ar, and U-Pb analyses, with multi-domain diffusion modeling to 10 samples from the Badwater turtleback. The cooling history of the Badwater turtleback is used as a proxy for its exhumation history as it uplifted from warmer depths.
+            We find slow (&lt;2 °C/m.y.) cooling from ca. 32 to 6 Ma, followed by rapid (120–140 °C/m.y.) cooling from ca. 6 to 4.5 Ma, and finally moderate (30–120 °C/m.y.) cooling occurred from ca. 4.5 Ma until the present. When these data are added to previously published cooling paths of the Copper Canyon turtleback and Mormon Point turtleback, a northwest cooling pattern is broadly evident, consistent with a top-to-NW removal of the hanging wall along a detachment fault. We propose a six-phase tectonic history. Post-orogenic collapse and erosion dominated from ca. 32 to 16 Ma. At 16–14 Ma, a detachment fault formed with a breakaway south and east of the Black Mountains, with normal faults in the hanging wall. Moderate extension continued from 14 to 8 Ma causing exhumation of the turtlebacks through the brittle-ductile transition. Dextral transtension at 7–6 Ma produced a pull-apart basin across the Black Mountains with rapid extension. The locus of deformation transferred to the Panamint and Owens Valley fault systems from 4.5 to 3.5 Ma, slowing extension in the Black Mountains until present.</dcterms:abstract>
+        <dc:date>2019-08-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.geoscienceworld.org/gsa/lithosphere/article/11/4/436/570193/Structural-evolution-of-central-Death-Valley</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-05 01:50:27</dcterms:dateSubmitted>
+        <bib:pages>436-447</bib:pages>
+        <z:citationKey>sizemoreStructuralEvolutionCentral2019</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1941-8264">
+        <prism:volume>11</prism:volume>
+        <dc:title>Lithosphere</dc:title>
+        <dc:identifier>DOI 10.1130/L1044.1</dc:identifier>
+        <prism:number>4</prism:number>
+        <dc:identifier>ISSN 1941-8264</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1032">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdfs.semanticscholar.org/8523/7226b478163d3c0464b6ae79b3bc93b70c08.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-05 01:50:34</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1033">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MAGIE</foaf:surname>
+                        <foaf:givenName>WILLIAM FRANCIS</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>PHYSICAL NOTES ON METEOR CRATER, ARIZONA.</dc:title>
+        <dc:date>April 1910</dc:date>
+        <z:citationKey>magiePHYSICALNOTESMETEOR1910</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1034">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><prism:number>1546</prism:number></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Proceedings U.S. National Musuem</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Merrill</foaf:surname>
+                        <foaf:givenName>George P</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1035"/>
+        <dc:title>On a Peculiar Form of Metamorphism in Siliceous Sandstone</dc:title>
+        <dc:date>1908</dc:date>
+        <z:citationKey>merrillPeculiarFormMetamorphism1908</z:citationKey>
+        <z:partNumber>547-552</z:partNumber>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1035">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FB9YWZYQS%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FB9YWZYQS%22%2C%22type%22%3A%22article-journal%22%2C%22citation-key%22%3A%22merrillPeculiarFormMetamorphism1908%22%2C%22title%22%3A%22on%20a%20peculiar%20form%20of%20metamorphism%20in%20siliceous%20sandstone%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Merrill%22%2C%22given%22%3A%22George%20P%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221908%22%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2F48GFDSBT%22%2C%22annotationKey%22%3A%22K4QGMCFN%22%2C%22color%22%3A%22%23aaaaaa%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B107.766%2C368.822%2C353.113%2C375.609%5D%2C%5B38.796%2C356.808%2C353.112%2C363.688%5D%2C%5B38.616%2C344.606%2C157.159%2C352.219%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FB9YWZYQS%22%5D%2C%22locator%22%3A%222%22%7D%7D&quot;&gt;“fine sand (Cat. No. 76840 U.S.N.M.), each particle of which is as sharpl}&quot; angular as though disintegrated b}' a blast of d^^namite (see fig. 4, Plate LII).'”&lt;/span&gt; &lt;span class=&quot;citation&quot; data-citation=&quot;%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FOLWMPY2p%2Fitems%2FB9YWZYQS%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D&quot;&gt;(&lt;span class=&quot;citation-item&quot;&gt;Merrill, 1908, p. 2&lt;/span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="#item_1036">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>ARTEMIEVA</foaf:surname>
+                        <foaf:givenName>Natalia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>PIERAZZO</foaf:surname>
+                        <foaf:givenName>Elisabetta</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The Canyon Diablo impact event: 2. Projectile fate and target melting upon impact</dc:title>
+        <dc:date>2011</dc:date>
+        <z:citationKey>artemievaCanyonDiabloImpact2011</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1037">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rogers</foaf:surname>
+                        <foaf:givenName>Austin F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>NATURAL HISTORY OF THE SILICA MINERALS</dc:title>
+        <dc:date>March 1928</dc:date>
+        <z:citationKey>rogersNATURALHISTORYSILICA1928</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="https://pubs.geoscienceworld.org/elements/article/8/1/31-36/137914">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1811-5209,%201811-5217"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langenhorst</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deutsch</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Shock Metamorphism of Minerals</dc:title>
+        <dc:date>2012-02-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.geoscienceworld.org/elements/article/8/1/31-36/137914</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-12 22:34:40</dcterms:dateSubmitted>
+        <bib:pages>31-36</bib:pages>
+        <z:citationKey>langenhorstShockMetamorphismMinerals2012</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1811-5209,%201811-5217">
+        <prism:volume>8</prism:volume>
+        <dc:title>Elements</dc:title>
+        <dc:identifier>DOI 10.2113/gselements.8.1.31</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Elements</dcterms:alternative>
+        <dc:identifier>ISSN 1811-5209, 1811-5217</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://pubs.geoscienceworld.org/geosphere/article/10/4/732/132170/Structural-overprinting-of-Mesozoic-thrust-systems">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1553-040X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pavlis</foaf:surname>
+                        <foaf:givenName>Terry L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rutkofske</foaf:surname>
+                        <foaf:givenName>James</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guerrero</foaf:surname>
+                        <foaf:givenName>Francisco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Serpa</foaf:surname>
+                        <foaf:givenName>Laura F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1040"/>
+        <dc:title>Structural overprinting of Mesozoic thrust systems in eastern California and its importance to reconstruction of Neogene extension in the southern Basin and Range</dc:title>
+        <dc:date>08/2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.geoscienceworld.org/geosphere/article/10/4/732/132170/Structural-overprinting-of-Mesozoic-thrust-systems</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-14 07:34:28</dcterms:dateSubmitted>
+        <bib:pages>732-756</bib:pages>
+        <z:citationKey>pavlisStructuralOverprintingMesozoic2014</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1553-040X">
+        <prism:volume>10</prism:volume>
+        <dc:title>Geosphere</dc:title>
+        <dc:identifier>DOI 10.1130/GES00993.1</dc:identifier>
+        <prism:number>4</prism:number>
+        <dc:identifier>ISSN 1553-040X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1040">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.geoscienceworld.org/gsa/geosphere/article-pdf/10/4/732/3333588/732.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-14 07:34:56</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0012825205000991">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>73</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/j.earscirev.2005.07.004</dc:identifier>
+                <prism:number>1-4</prism:number>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Knott</foaf:surname>
+                        <foaf:givenName>J</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sarnawojcicki</foaf:surname>
+                        <foaf:givenName>A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Machette</foaf:surname>
+                        <foaf:givenName>M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klinger</foaf:surname>
+                        <foaf:givenName>R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Upper Neogene stratigraphy and tectonics of Death Valley — a review</dc:title>
+        <dc:date>12/2005</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0012825205000991</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-15 20:26:53</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>245-270</bib:pages>
+        <z:citationKey>knottUpperNeogeneStratigraphy2005</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1042">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <z:citationKey>zotero-item-635</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="https://pubs.geoscienceworld.org/gsabulletin/article/109/10/1361-1371/183218">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00167606"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Jianren</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lowenstein</foaf:surname>
+                        <foaf:givenName>Tim K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blackburn</foaf:surname>
+                        <foaf:givenName>Ian R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Responses of evaporite mineralogy to inflow water sources and climate during the past 100 k.y. in Death Valley, California</dc:title>
+        <dc:date>10/1997</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.geoscienceworld.org/gsabulletin/article/109/10/1361-1371/183218</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-02-24 16:36:08</dcterms:dateSubmitted>
+        <bib:pages>1361-1371</bib:pages>
+        <z:citationKey>liResponsesEvaporiteMineralogy1997</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00167606">
+        <prism:volume>109</prism:volume>
+        <dc:title>Geological Society of America Bulletin</dc:title>
+        <dc:identifier>DOI 10.1130/0016-7606(1997)109&lt;1361:ROEMTI&gt;2.3.CO;2</dc:identifier>
+        <prism:number>10</prism:number>
+        <dc:identifier>ISSN 00167606</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_1044">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>37</prism:volume>
+                <dc:title>BULLETIN OF THE AMERICAN ASSOCIATION OF PETROLEUM GEOLOGISTS</dc:title>
+                <prism:number>4</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hager</foaf:surname>
+                        <foaf:givenName>Dorsey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Crater Mound (Meteor Crater), AZ, A Geologic Feature</dc:title>
+        <dc:date>1953</dc:date>
+        <z:citationKey>zotero-item-639</z:citationKey>
+        <z:partNumber>821-857</z:partNumber>
+    </bib:Article>
+    <bib:Article rdf:about="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012TC003170">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0278-7407,%201944-9194"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Renik</foaf:surname>
+                        <foaf:givenName>Byrdie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christie‐Blick</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>A new hypothesis for the amount and distribution of dextral displacement along the Fish Lake Valley–northern Death Valley–Furnace Creek fault zone, California‐Nevada</dc:title>
+        <dcterms:abstract>Abstract
+            The Fish Lake Valley–northern Death Valley–Furnace Creek fault zone, a ~250 km long, predominantly right‐lateral structure in California and Nevada, is a key element in tectonic reconstructions of the Death Valley area, Eastern California Shear Zone and Walker Lane, and central Basin and Range Province. Total displacement on the fault zone is contested, however, with estimates ranging from ~30 to ~63 km or more. Here we present a new synthesis of available constraints. Preextensional thrust faults, folds, and igneous rocks indicate that offset reaches a maximum of ~50 km. Neogene rocks constrain its partitioning over time. Most offset is interpreted as ≤ ~13–10 Ma, accruing at ~3–5 mm/yr in the middle of the fault zone and more slowly toward the tips. The offset markers imply ~68 ± 14 km of translation between the Cottonwood Mountains and Resting Spring–Nopah Range (~60 ± 14 km since ~15 Ma) through a combination of strike slip and crustal extension. This suggests that a previous interpretation of ~104 ± 7 km, based on the middle Miocene Eagle Mountain Formation, is an overestimate by ~50%. Our results also help to mitigate a discrepancy in the ~12–0 Ma strain budget for the Eastern California Shear Zone. Displacement has previously been estimated at ~100 ± 10 km and ~67 ± 6 km for the Basin and Range and Mojave portions of the shear zone, respectively. Our new estimate of ~74 ± 17 km for the Basin and Range is within the uncertainty of the Mojave estimate.
+          , 
+            Key Points
+            
+              
+                
+                  Furnace Creek fault zone accommodated &amp;lt; ~50 km of dextral offset since ~13 Ma
+                
+                
+                  Combined extension and strike slip in central Death Valley overestimated by ~50%
+                
+                
+                  Results resolve a ~12‐0 Ma strain discrepancy for Eastern California Shear Zone</dcterms:abstract>
+        <dc:date>03/2013</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012TC003170</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-03-02 01:25:59</dcterms:dateSubmitted>
+        <dc:rights>http://onlinelibrary.wiley.com/termsAndConditions#vor</dc:rights>
+        <bib:pages>123-145</bib:pages>
+        <z:citationKey>renikNewHypothesisAmount2013</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0278-7407,%201944-9194">
+        <prism:volume>32</prism:volume>
+        <dc:title>Tectonics</dc:title>
+        <dc:identifier>DOI 10.1029/2012TC003170</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Tectonics</dcterms:alternative>
+        <dc:identifier>ISSN 0278-7407, 1944-9194</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://pubs.geoscienceworld.org/gsabulletin/article/78/8/933-950/6233">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0016-7606"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wright</foaf:surname>
+                        <foaf:givenName>Lauren A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troxel</foaf:surname>
+                        <foaf:givenName>Bennie W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Limitations on Right-Lateral, Strike-Slip Displacement, Death Valley and Furnace Creek Fault Zones, California</dc:title>
+        <dc:date>1967</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.geoscienceworld.org/gsabulletin/article/78/8/933-950/6233</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-03-02 01:27:49</dcterms:dateSubmitted>
+        <bib:pages>933</bib:pages>
+        <z:citationKey>wrightLimitationsRightLateralStrikeSlip1967</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0016-7606">
+        <prism:volume>78</prism:volume>
+        <dc:title>Geological Society of America Bulletin</dc:title>
+        <dc:identifier>DOI 10.1130/0016-7606(1967)78[933:LORSDD]2.0.CO;2</dc:identifier>
+        <prism:number>8</prism:number>
+        <dcterms:alternative>Geol Soc America Bull</dcterms:alternative>
+        <dc:identifier>ISSN 0016-7606</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_1047">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Kelvin</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>On the Secular Cooling of the Earth</dc:title>
+        <z:citationKey>zotero-item-663</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1048">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cemen</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wright</foaf:surname>
+                        <foaf:givenName>Lauren A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Effect of Cenozoic extension on Mesozoic thrust surfaces  ,I  in the central and southern Funeral Mountains,  Death Valley, California</dc:title>
+        <dc:date>1990</dc:date>
+        <z:citationKey>zotero-item-672</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1049">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cemen</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wright</foaf:surname>
+                        <foaf:givenName>Lauren A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Prave</foaf:surname>
+                        <foaf:givenName>Anthony</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Stratigraphy and tectonic implications of the latest Oligocene and  early Miocene sedimentary succession, southernmost Funeral  Mountains, Death Valley region, California</dc:title>
+        <dc:date>1999</dc:date>
+        <z:citationKey>zotero-item-674</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1050">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wright</foaf:surname>
+                        <foaf:givenName>Lauren A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cemen</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnson</foaf:surname>
+                        <foaf:givenName>Fred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Greene</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Prave</foaf:surname>
+                        <foaf:givenName>Anthony</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Tectonostratigraphic development ofthe Miocene-Pliocene Furnace  Creek Basin and relatedfeatures, Death Valley region, California</dc:title>
+        <dc:date>1999</dc:date>
+        <z:citationKey>zotero-item-676</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1051">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <z:citationKey>zotero-item-691</z:citationKey>
+    </bib:Article>
+    <bib:Book rdf:about="#item_1052">
+       <z:itemType>book</z:itemType><z:citationKey>zotero-item-707</z:citationKey>
+    </bib:Book>
+    <bib:Article rdf:about="#item_1053">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>93</prism:volume>
+                <dc:title>American Mineralogist</dc:title>
+                <dc:identifier>DOI 10.2138/am.2008.2955</dc:identifier>
+                <prism:number>11-12</prism:number>
+                <dcterms:alternative>American Mineralogist</dcterms:alternative>
+                <dc:identifier>ISSN 0003-004X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hazen</foaf:surname>
+                        <foaf:givenName>R. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Papineau</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bleeker</foaf:surname>
+                        <foaf:givenName>W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Downs</foaf:surname>
+                        <foaf:givenName>R. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ferry</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCoy</foaf:surname>
+                        <foaf:givenName>T. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sverjensky</foaf:surname>
+                        <foaf:givenName>D. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Mineral evolution</dc:title>
+        <dc:date>2008-11-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.degruyter.com/document/doi/10.2138/am.2008.2955/html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-05 06:57:22</dcterms:dateSubmitted>
+        <bib:pages>1693-1720</bib:pages>
+        <z:citationKey>hazenMineralEvolution2008</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1054">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>272</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/j.earscirev.2025.105206</dc:identifier>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ponomar</foaf:surname>
+                        <foaf:givenName>Vitalii</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gavryliv</foaf:surname>
+                        <foaf:givenName>Liubomyr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Unveiling carbonate mineral evolution across geological timescales using an integrated mineral database approach</dc:title>
+        <dc:date>01/2026</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0012825225001679</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-05 07:23:42</dcterms:dateSubmitted>
+        <bib:pages>105206</bib:pages>
+        <z:citationKey>ponomarUnveilingCarbonateMineral2026</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1055">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:title>Plate Tectonics and Mineral Resources</dc:title>
+        <z:citationKey>zotero-item-718</z:citationKey>
+    </bib:Article>
+    <bib:Book rdf:about="#item_1056">
+        <z:itemType>book</z:itemType>
+        <dc:title>Mineral Deposits and Earth Evolution</dc:title>
+        <z:citationKey>zotero-item-720</z:citationKey>
+    </bib:Book>
+    <bib:Article rdf:about="https://www.lyellcollection.org/doi/10.1144/SP393.1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0305-8719,%202041-4927"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cawood</foaf:surname>
+                        <foaf:givenName>Peter A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hawkesworth</foaf:surname>
+                        <foaf:givenName>Chris J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Temporal relations between mineral deposits and global tectonic cycles</dc:title>
+        <dcterms:abstract>Abstract
+            Mineral deposits are heterogeneously distributed in both space and time, with variations reflecting tectonic setting, evolving environmental conditions, as in the atmosphere and hydrosphere, and secular changes in the Earth's thermal history. The distribution of deposit types whose settings are tied to plate margin processes (e.g. orogenic gold, volcanic-hosted massive sulphide, Mississippi valley type Pb–Zn deposits) correlates well with the supercontinent cycle, whereas deposits related to intra-cratonic settings and mantle-driven igneous events, such as Ni–Cu–PGE deposits, lack a clear association. The episodic distribution of deposits tied to the supercontinent cycle is accentuated by selective preservation and biasing of rock units and events during supercontinent assembly, a process that encases the deposit within the assembled supercontinent and isolates it from subsequent removal and recycling at plate margins.</dcterms:abstract>
+        <dc:date>01/2015</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lyellcollection.org/doi/10.1144/SP393.1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-06 16:41:16</dcterms:dateSubmitted>
+        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+        <bib:pages>9-21</bib:pages>
+        <z:citationKey>cawoodTemporalRelationsMineral2015</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0305-8719,%202041-4927">
+        <prism:volume>393</prism:volume>
+        <dc:title>Geological Society, London, Special Publications</dc:title>
+        <dc:identifier>DOI 10.1144/SP393.1</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>SP</dcterms:alternative>
+        <dc:identifier>ISSN 0305-8719, 2041-4927</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_1058">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>36</prism:volume>
+                <dc:title>Earth and Planetary Science Letters</dc:title>
+                <dc:identifier>DOI 10.1016/0012-821X(77)90193-5</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Earth and Planetary Science Letters</dcterms:alternative>
+                <dc:identifier>ISSN 0012821X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pearce</foaf:surname>
+                        <foaf:givenName>T.H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gorman</foaf:surname>
+                        <foaf:givenName>B.E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birkett</foaf:surname>
+                        <foaf:givenName>T.C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1059"/>
+        <dc:title>The relationship between major element chemistry and tectonic environment of basic and intermediate volcanic rocks</dc:title>
+        <dc:date>8/1977</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/0012821X77901935</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-08 21:10:55</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>121-132</bib:pages>
+        <z:citationKey>pearceRelationshipMajorElement1977</z:citationKey>
+    </bib:Article>
+   <bib:Memo rdf:about="#item_1059"><rdf:value></rdf:value></bib:Memo>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/0016703784903454">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00167037"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McLennan</foaf:surname>
+                        <foaf:givenName>Scott M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenName>S.R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McGregor</foaf:surname>
+                        <foaf:givenName>V.R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Geochemistry of Archean metasedimentary rocks from West Greenland</dc:title>
+        <dc:date>1/1984</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/0016703784903454</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-08 21:27:29</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>1-13</bib:pages>
+        <z:citationKey>mclennanGeochemistryArcheanMetasedimentary1984</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00167037">
+        <prism:volume>48</prism:volume>
+        <dc:title>Geochimica et Cosmochimica Acta</dc:title>
+        <dc:identifier>DOI 10.1016/0016-7037(84)90345-4</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Geochimica et Cosmochimica Acta</dcterms:alternative>
+        <dc:identifier>ISSN 00167037</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_1061">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>12</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/0012-8252(76)90012-X</dc:identifier>
+                <prism:number>4</prism:number>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Condie</foaf:surname>
+                        <foaf:givenName>K</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Trace-element geochemistry of archean greenstone belts</dc:title>
+        <dc:date>11/1976</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/001282527690012X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-08 21:28:57</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>393-417</bib:pages>
+        <z:citationKey>condieTraceelementGeochemistryArchean1976</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1062">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>57</prism:volume>
+                <dc:title>Academy of Natural Sciences</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barringer</foaf:surname>
+                        <foaf:givenName>Daniel Moreau</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Coon Mountain and Its Crater</dc:title>
+        <dc:date>1905</dc:date>
+        <bib:pages>861-886</bib:pages>
+        <z:citationKey>zotero-item-900</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_1063">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>241</prism:volume>
+                <dc:title>Earth-Science Reviews</dc:title>
+                <dc:identifier>DOI 10.1016/j.earscirev.2023.104417</dc:identifier>
+                <dcterms:alternative>Earth-Science Reviews</dcterms:alternative>
+                <dc:identifier>ISSN 00128252</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vandenburg</foaf:surname>
+                        <foaf:givenName>Eric D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nebel</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smithies</foaf:surname>
+                        <foaf:givenName>R. Hugh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Capitanio</foaf:surname>
+                        <foaf:givenName>Fabio A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>Laura</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cawood</foaf:surname>
+                        <foaf:givenName>Peter A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millet</foaf:surname>
+                        <foaf:givenName>Marc-Alban</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruand</foaf:surname>
+                        <foaf:givenName>Emilie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moyen</foaf:surname>
+                        <foaf:givenName>Jean-François</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Xueying</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nebel-Jacobsen</foaf:surname>
+                        <foaf:givenName>Yona</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1064"/>
+        <dc:title>Spatial and temporal control of Archean tectonomagmatic regimes</dc:title>
+        <dc:date>06/2023</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S001282522300106X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-29 18:39:02</dcterms:dateSubmitted>
+        <bib:pages>104417</bib:pages>
+        <z:citationKey>vandenburgSpatialTemporalControl2023</z:citationKey>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1064">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://archimer.ifremer.fr/doc/00903/101531/112361.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-04-29 18:39:24</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_9">
+        <dc:title>SES 230 Project Zotero Library</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_10"/>
+        <dcterms:hasPart rdf:resource="#collection_11"/>
+        <dcterms:hasPart rdf:resource="#collection_12"/>
+        <dcterms:hasPart rdf:resource="#collection_13"/>
+        <dcterms:hasPart rdf:resource="#collection_14"/>
+        <dcterms:hasPart rdf:resource="#collection_15"/>
+        <dcterms:hasPart rdf:resource="#collection_16"/>
+        <dcterms:hasPart rdf:resource="#collection_17"/>
+        <dcterms:hasPart rdf:resource="#item_994"/>
+        <dcterms:hasPart rdf:resource="#item_1000"/>
+        <dcterms:hasPart rdf:resource="#item_1009"/>
+        <dcterms:hasPart rdf:resource="#item_1011"/>
+        <dcterms:hasPart rdf:resource="#item_1013"/>
+        <dcterms:hasPart rdf:resource="#item_1014"/>
+        <dcterms:hasPart rdf:resource="#item_1015"/>
+        <dcterms:hasPart rdf:resource="#item_1016"/>
+        <dcterms:hasPart rdf:resource="#item_1017"/>
+        <dcterms:hasPart rdf:resource="#item_1018"/>
+        <dcterms:hasPart rdf:resource="https://www.nature.com/articles/230042a0"/>
+        <dcterms:hasPart rdf:resource="https://www.nature.com/articles/244150a0"/>
+        <dcterms:hasPart rdf:resource="#item_1022"/>
+        <dcterms:hasPart rdf:resource="https://academic.oup.com/ismej/article/17/12/2415-2425/7506670"/>
+        <dcterms:hasPart rdf:resource="#item_1025"/>
+        <dcterms:hasPart rdf:resource="#item_1026"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0012825222001969"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsabulletin/article/18/1/493-504/2561"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsa/lithosphere/article/11/4/436/570193/Structural-evolution-of-central-Death-Valley"/>
+        <dcterms:hasPart rdf:resource="#item_1033"/>
+        <dcterms:hasPart rdf:resource="#item_1034"/>
+        <dcterms:hasPart rdf:resource="#item_1036"/>
+        <dcterms:hasPart rdf:resource="#item_1037"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/elements/article/8/1/31-36/137914"/>
+        <dcterms:hasPart rdf:resource="http://pubs.geoscienceworld.org/geosphere/article/10/4/732/132170/Structural-overprinting-of-Mesozoic-thrust-systems"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0012825205000991"/>
+        <dcterms:hasPart rdf:resource="#item_1042"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsabulletin/article/109/10/1361-1371/183218"/>
+        <dcterms:hasPart rdf:resource="#item_1044"/>
+        <dcterms:hasPart rdf:resource="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012TC003170"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsabulletin/article/78/8/933-950/6233"/>
+        <dcterms:hasPart rdf:resource="#item_1047"/>
+        <dcterms:hasPart rdf:resource="#item_1048"/>
+        <dcterms:hasPart rdf:resource="#item_1049"/>
+        <dcterms:hasPart rdf:resource="#item_1050"/>
+        <dcterms:hasPart rdf:resource="#item_1051"/>
+        <dcterms:hasPart rdf:resource="#item_1052"/>
+        <dcterms:hasPart rdf:resource="#item_1053"/>
+        <dcterms:hasPart rdf:resource="#item_1054"/>
+        <dcterms:hasPart rdf:resource="#item_1055"/>
+        <dcterms:hasPart rdf:resource="#item_1056"/>
+        <dcterms:hasPart rdf:resource="https://www.lyellcollection.org/doi/10.1144/SP393.1"/>
+        <dcterms:hasPart rdf:resource="#item_1058"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/0016703784903454"/>
+        <dcterms:hasPart rdf:resource="#item_1061"/>
+        <dcterms:hasPart rdf:resource="#item_1062"/>
+        <dcterms:hasPart rdf:resource="#item_1063"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_10">
+        <dc:title>Death Valley Research - Cemen, Ibrahim</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1016"/>
+        <dcterms:hasPart rdf:resource="#item_1017"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsa/lithosphere/article/11/4/436/570193/Structural-evolution-of-central-Death-Valley"/>
+        <dcterms:hasPart rdf:resource="http://pubs.geoscienceworld.org/geosphere/article/10/4/732/132170/Structural-overprinting-of-Mesozoic-thrust-systems"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0012825205000991"/>
+        <dcterms:hasPart rdf:resource="#item_1048"/>
+        <dcterms:hasPart rdf:resource="#item_1049"/>
+        <dcterms:hasPart rdf:resource="#item_1050"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_11">
+        <dc:title>Geochemical Modeling</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1042"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsabulletin/article/109/10/1361-1371/183218"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_12">
+       <dc:title>Geochemical Modeling Project</dc:title>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_13">
+        <dc:title>Geodynamics</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1022"/>
+        <dcterms:hasPart rdf:resource="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012TC003170"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsabulletin/article/78/8/933-950/6233"/>
+        <dcterms:hasPart rdf:resource="#item_1047"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_14">
+        <dc:title>Geomicrobiology</dc:title>
+        <dcterms:hasPart rdf:resource="https://academic.oup.com/ismej/article/17/12/2415-2425/7506670"/>
+        <dcterms:hasPart rdf:resource="#item_1051"/>
+        <dcterms:hasPart rdf:resource="#item_1052"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_15">
+        <dc:title>SES 230</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.nature.com/articles/230042a0"/>
+        <dcterms:hasPart rdf:resource="https://www.nature.com/articles/244150a0"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_16">
+        <dc:title>SES 230 Term Project</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1053"/>
+        <dcterms:hasPart rdf:resource="#item_1054"/>
+        <dcterms:hasPart rdf:resource="#item_1058"/>
+        <dcterms:hasPart rdf:resource="#item_1061"/>
+        <dcterms:hasPart rdf:resource="#item_1063"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_17">
+        <dc:title>Shocked Coconino Meteor Crater Research Project</dc:title>
+        <dcterms:hasPart rdf:resource="#item_994"/>
+        <dcterms:hasPart rdf:resource="#item_1000"/>
+        <dcterms:hasPart rdf:resource="#item_1009"/>
+        <dcterms:hasPart rdf:resource="#item_1011"/>
+        <dcterms:hasPart rdf:resource="#item_1013"/>
+        <dcterms:hasPart rdf:resource="#item_1014"/>
+        <dcterms:hasPart rdf:resource="#item_1015"/>
+        <dcterms:hasPart rdf:resource="#item_1018"/>
+        <dcterms:hasPart rdf:resource="#item_1025"/>
+        <dcterms:hasPart rdf:resource="#item_1026"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0012825222001969"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/gsabulletin/article/18/1/493-504/2561"/>
+        <dcterms:hasPart rdf:resource="#item_1033"/>
+        <dcterms:hasPart rdf:resource="#item_1034"/>
+        <dcterms:hasPart rdf:resource="#item_1036"/>
+        <dcterms:hasPart rdf:resource="#item_1037"/>
+        <dcterms:hasPart rdf:resource="https://pubs.geoscienceworld.org/elements/article/8/1/31-36/137914"/>
+        <dcterms:hasPart rdf:resource="#item_1044"/>
+        <dcterms:hasPart rdf:resource="#item_1062"/>
+    </z:Collection>
+</rdf:RDF>
