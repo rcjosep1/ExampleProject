@@ -117,7 +117,7 @@ def build_age(df: pd.DataFrame) -> pd.Series:
 # Paths and source files
 # ============================================================
 
-BASE_DIR = Path(r"C:\Users\ramse\Documents\AnacondaProjects\TermProject")
+BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data" / "raw"
 OUTPUT_DATA = BASE_DIR / "data"
 FIG_DIR = BASE_DIR / "figures"
