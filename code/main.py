@@ -146,7 +146,7 @@ def load_dataset(fname: str, header_row: int) -> pd.DataFrame:
 # Core extractors
 # ============================================================
 
-def extract_basic(df: pd.DataFrame, setting: str) -> pd.DataFrame:
+def extract_basic(df: pd.DataFrame, setting: str, source) -> pd.DataFrame:
     """
     Generic extractor for Stracke-style whole-rock compilations.
     Used for MORB and the baseline hotspot file.
@@ -159,11 +159,11 @@ def extract_basic(df: pd.DataFrame, setting: str) -> pd.DataFrame:
     out["K2O"] = get_numeric(df, ["K2O", "K2O %"])
 
     out["Age_Ma"] = build_age(df)
-
     out["Latitude"] = first_numeric(df, ["LATITUDE", "Latitude", "Latitude (Y)"])
     out["Longitude"] = first_numeric(df, ["LONGITUDE", "Longitude", "Longitude (X)"])
 
     out["Setting"] = setting
+    out["Source"] = source
     return out
 
 
@@ -192,6 +192,7 @@ def extract_arc(df: pd.DataFrame) -> pd.DataFrame:
     out["Longitude"] = first_numeric(df, ["Longitude (X)", "Longitude", "LONGITUDE"])
 
     out["Setting"] = "ARC"
+    out["Source"] = "Woerner 2021"
     return out
 
 
@@ -203,6 +204,7 @@ def extract_arc_age(df: pd.DataFrame) -> pd.DataFrame:
     out = pd.DataFrame()
     out["Age_Ma"] = first_number(df["Age"])
     out["Setting"] = "ARC"
+    out["Source"] = "Pilger 2023"
     return out
 
 
@@ -341,6 +343,8 @@ def extract_petdb() -> pd.DataFrame:
     out.loc[geo.str.contains("volcanic arc|convergent margin", na=False), "Setting"] = "ARC"
     out.loc[geo.str.contains("seamount|intraplate craton|intraplate off-craton", na=False), "Setting"] = "HOTSPOT"
 
+    out["Source"] = "PetDB"
+
     out = out.dropna(subset=["Setting", "SiO2", "Age_Ma"]).copy()
     return out
 
@@ -404,6 +408,8 @@ mask = (
 )
 
 qin_hotspot = qin.loc[mask].copy()
+
+qin_hotspot["Source"] = "Qin 2024"
 
 # Remove obvious mantle / xenolith material.
 bad_keywords = ["XENOLITH", "PERIDOTITE", "HARZBURGITE", "LHERZOLITE"]
@@ -478,7 +484,7 @@ qin_hotspot["TiO2"] = pd.to_numeric(qin_hotspot["TIO2(WT%)"], errors="coerce")
 qin_hotspot["MgO"] = pd.to_numeric(qin_hotspot["MGO(WT%)"], errors="coerce")
 
 qin_hotspot = qin_hotspot[
-    ["SiO2", "TiO2", "MgO", "Age_Ma", "Latitude", "Longitude", "Setting"]
+    ["SiO2", "TiO2", "MgO", "Age_Ma", "Latitude", "Longitude", "Setting", "Source"]
 ]
 
 
@@ -507,8 +513,8 @@ print("\n==== MCCOY ====")
 print(mccoy.shape)
 print(mccoy.head())
 
-morb = extract_basic(dfs["MORB"], "MOR")
-oib = extract_basic(dfs["HOTSPOT"], "HOTSPOT")
+morb = extract_basic(dfs["MORB"], "MOR", "Stracke 2022")
+oib = extract_basic(dfs["HOTSPOT"], "HOTSPOT", "Stracke 2022")
 arc = extract_arc(dfs["ARC"])
 
 # ARC rock-type filter: keep the basaltic / basaltic-andesite subset.
