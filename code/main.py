@@ -561,8 +561,8 @@ OUTPUT_DATA.mkdir(parents=True, exist_ok=True)
 df_all.to_csv(OUTPUT_DATA / "cleaned_dataset.csv", index=False)
 print("Saved cleaned dataset to:", OUTPUT_DATA / "cleaned_dataset.csv")
 
-# 50 Ma age bins, centred on the midpoint of each bin.
-bin_size = 50
+# 50 or 25 Ma age bins, centred on the midpoint of each bin. Change map title below to match bin size
+bin_size = 25
 df_all["Age_Bin"] = ((df_all["Age_Ma"] // bin_size) * bin_size) + (bin_size / 2)
 
 
@@ -594,7 +594,7 @@ for setting in ["MORB", "ARC", "HOTSPOT"]:
         category_orders={"Age_Bin": bin_order},
         color_discrete_sequence=px.colors.qualitative.Bold,
         projection="natural earth",
-        title=f"{setting} samples coloured by 50 Ma age bin",
+        title=f"{setting} samples coloured by 25 Ma age bin",
         hover_data=["Age_Ma", "Age_Bin", "SiO2", "TiO2", "MgO", "Source"],
     )
 
