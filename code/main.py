@@ -542,7 +542,7 @@ df_all = pd.concat(
         morb,
         oib,
         arc,
-        arc_age,      # age-only reference; currently dropped later because it lacks SiO2
+        arc_age,      # age-only reference
         tornare,
         mccoy,
         qin_hotspot,
