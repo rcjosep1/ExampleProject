@@ -1,0 +1,165 @@
+,,,,,,,,,,,
+,,,,,,,,,,,
+Age(Period),Age(Ma),Rock Type,Geologic Environment,SiO2 %,TiO2 %,MgO %,FeO* %,K2O %,Latitude,Longitude,database 
+Quaternary,1.2,Basalt,seamount,47.99,0.5,3.29,,0.39,-34.4406,176.98,PetDB
+Quaternary,0.22,Basalt,spreading center,50.63,2.43,5.35,,0.46,2.16,-91.92,PetDB
+Quaternary,0.22,Basalt,spreading center,49.6,1.37,7.73,,0.47,2.16,-91.89,PetDB
+Quaternary,0.22,Basalt,spreading center,49.39,1.36,7.83,,0.44,2.16,-91.89,PetDB
+Quaternary,0.29,Basalt,spreading center,50.18,1.7,6.36,10.49,0.3,2.18,-91.88,PetDB
+Quaternary,0.012,Andesite ,volcanic arc,53.28,0.77,5.24,8.83,0.87,18.0613,145.717,PetDB
+Quaternary,0.286,Basalt,volcanic arc,49.56,0.77,5.31,10.65,0.64,18.0929,145.758,PetDB
+Quaternary,0.001,Basalt,spreading center,50.4,0.88,10.1,,0.16,36.828,-33.262,PetDB
+Quaternary,0.0001,Basalt,spreading center,,,,,,36.8362,-33.2482,PetDB
+Quaternary,0.0001,Basalt,spreading center,45.4,0.45,22.6,,0.06,38.8372,-33.2482,PetDB
+Quaternary,0.001,Basalt,spreading center,50.1,1.02,8.92,,0.16,36.85,-33.25,PetDB
+Quaternary,1.74,Andesite ,volcanic arc,53.87,1.4,4.07,,1.49,54.1494,-165.979,PetDB
+Quaternary,1.4,Andesite ,volcanic arc,56.7,0.86,2.89,,1.35,54.1494,-165.979,PetDB
+Quaternary,0.599,Basalt,off axis spreading center,,,,,0.4,10.427,-103.863,PetDB
+Quaternary,0.195,Basalt,off axis spreading center,,,,,0.55,11.374,-103.639,PetDB
+Quaternary,0.313,Basalt,off axis spreading center,,,,,0.12,11.374,-103.639,PetDB
+Quaternary,0.293,Basalt,off axis spreading center,,,,,0.5,11.3817,-103.677,PetDB
+Quaternary,0.348,Basalt,off axis spreading center,,,,,1.06,11.325,-103.922,PetDB
+Quaternary,0.752,Basalt,off axis spreading center,,,,,0.22,11.3,-104.148,PetDB
+Neogene,13.9,Basaltic Andesite,volcanic arc,53,0.82,4.59,8.74,1.12,52.222,-175.131,PetDB
+Neogene,16.2,Basaltic Andesite,volcanic arc,54,0.78,4.37,8.45,1.15,52.222,-175.131,PetDB
+Neogene,5.8,Basaltic Andesite,volcanic arc,56.2,0.68,3.42,7.11,1.27,52.222,-175.131,PetDB
+Neogene,4.6,Basaltic Andesite,volcanic arc,58.1,0.61,2.89,6.27,1.44,52.222,-175.131,PetDB
+Neogene,3.1,Basaltic Andesite,volcanic arc,58.8,0.58,2.68,6,1.4,52.222,-175.131,PetDB
+Neogene,20.5,Andesite ,volcanic arc,55.36,0.98,2.53,,0.82,55.3979,-161.862,PetDB
+Neogene,10.3,Basaltic Andesite,volcanic arc,55.2,1.02,4.62,,0.9,52.2933,-172.4,PetDB
+Neogene,9.7,Andesite ,volcanic arc,58.4,1.14,3.07,,1.11,52.3602,-172.524,PetDB
+Neogene,7.29,Basalt,intraplate off-craton,50.86,1.56,7.38,,0.73,33.293,129.468,PetDB
+Neogene,7.33,Basalt,intraplate off-craton,51.16,1.47,7.67,,1.09,33.3447,129.683,PetDB
+Neogene,7.76,Basalt,intraplate off-craton,47.93,3.13,4.72,,2.03,33.3314,129.883,PetDB
+Neogene,7.26,Basalt,intraplate off-craton,49.2,2.29,6.08,,1.32,33.3314,129.883,PetDB
+Neogene,3.45,Basalt,seamount,49.03,1.09,7.69,8.47,0.17,-11.4,-94.55,PetDB
+Neogene,3.2,Basalt,seamount,49.95,0.98,7.75,8.99,0.3,-13.433,-106.433,PetDB
+Neogene,13.59,Basalt,seamount,,,,,,-25.651,-83.739,PetDB
+Neogene,4.37,Basalt,seamount,48.19,1.49,10.52,10.71,0.29,-26.186,-101.861,PetDB
+Neogene,23,Basalt,seamount,45.42,3.66,3.91,,1.86,-46.2267,-155.88,PetDB
+Neogene,22,Basalt,seamount,46.13,2.7,13.31,,0.94,-46.22,-155.878,PetDB
+Neogene,18.5,Basalt,seamount,47.3,0.73,3.22,,0.61,-33.9775,174.383,PetDB
+Neogene,20.7,Andesite ,seamount,50.96,0.96,3.65,,6.48,-31.295,175.219,PetDB
+Neogene,20.7,Andesite ,seamount,51.81,0.99,2.84,,6.32,-31.312,175.221,PetDB
+Neogene,21,Basalt,seamount,53.19,0.71,5.57,,2.25,-30.8405,173.77,PetDB
+Neogene,23,Basalt,intraplate off-craton,48.26,1.72,10.27,,1.07,38,119,PetDB
+Neogene,23,Basalt,intraplate off-craton,47.71,1.69,9.81,,1.12,38,119,PetDB
+Neogene,3,Basalt,spreading center,49.66,1.62,8.16,8.16,0.23,29.05,-44.27,PetDB
+Neogene,8.5,Basalt,spreading center,49.91,1.38,9.27,7.07,0.42,45.73,-27.72,PetDB
+Neogene,4.8,Basalt,spreading center,49.75,1.37,8.91,6.05,0.5,45.73,-27.72,PetDB
+Neogene,20,Basalt,convergent margin,49.26,1.09,7.01,,0.17,5.7487,-82.882,PetDB
+Neogene,10.94,Basaltic Andesite,convergent margin,53.52,1.7,3.74,5.81,1.15,24.38,-107.12,PetDB
+Neogene,10.54,Basaltic Andesite,convergent margin,53.49,1.11,4.53,4.9,1.13,24.71,-107.35,PetDB
+Neogene,10.33,Basaltic Andesite,convergent margin,57.52,1.2,3.72,4.8,1.44,25.15,-108,PetDB
+Ogliocene,30.3,Basalt,seamount,46.17,3.78,4.89,,1.32,-43.575,-161.488,PetDB
+Ogliocene,29.3,Basalt,seamount,45.27,3.16,11.31,,0.93,-43.995,-160.618,PetDB
+Ogliocene,25.6,Basalt,seamount,49.06,3.98,4.24,,1.59,-44.275,-159.815,PetDB
+Ogliocene,26,Basalt,seamount,,,,,,-44.8433,-158.473,PetDB
+Ogliocene,24.6,Basalt,seamount,46.31,3.08,5.8,,0.96,-45.3817,-157.733,PetDB
+Ogliocene,24,Basalt,seamount,47.32,2.86,7.27,,0.83,-45.3817,-157.733,PetDB
+Ogliocene,23,Basalt,seamount,45.42,3.66,3.91,,1.86,-46.2267,-155.88,PetDB
+Ogliocene,24.9,Basalt,seamount,,,,,0.426,53.543,-144.373,PetDB
+Ogliocene,25.9,Basalt,seamount,48.2,1.83,4.97,4.84,0.239,53.543,-144.373,PetDB
+Ogliocene,23.1,Basalt,intraplate craton,49.6,1.73,9.05,,0.52,38,119,PetDB
+Ogliocene,23.1,Basalt,intraplate craton,50.19,1.75,8.77,,0.58,38,119,PetDB
+Ogliocene,23.1,Basalt,intraplate craton,49.9,1.72,8.77,,0.47,38,119,PetDB
+Ogliocene,23,Basalt,intraplate craton,48.26,1.72,10.27,,1.07,38,119,PetDB
+Ogliocene,23,Basalt,intraplate craton,47.71,1.69,9.81,,1.12,38,119,PetDB
+Ogliocene,26.8,Andesite ,volcanic arc,57.11,0.97,2.59,6.99,2,54.8361,176.917,PetDB
+Ogliocene,27.7,Andesite ,volcanic arc,56.43,0.98,3.12,7.43,1.76,54.8361,176.918,PetDB
+Ogliocene,27.2,Andesite ,volcanic arc,57.18,0.98,2.8,7.25,1.91,54.8361,176.918,PetDB
+Eocene,54.1,Andesite ,volcanic arc,60.49,1.14,2.22,9.55,1.38,52.2867,-172.45,PetDB
+Eocene,52,Andesite ,volcanic arc,61.76,0.93,2.41,7.08,1.37,52.2658,-172.586,PetDB
+Eocene,38.8,Andesite ,volcanic arc,60.8,0.95,2.55,8.29,1.32,52.3121,-172.59,PetDB
+Eocene,53,Andesite ,volcanic arc,62.36,0.9,2.08,,1.53,52.316,-172.51,PetDB
+Eocene,39,Andesite ,volcanic arc,59.2,,,,1.253,58.279,-154.953,PetDB
+Eocene,43,Andesite ,volcanic arc,61.1,,,,1.644,58.1574,-155.398,PetDB
+Eocene,54,Andesite ,volcanic arc,57.3,,,,1.479,58.3572,-155.104,PetDB
+Eocene,44,Andesite ,volcanic arc,62.1,,,,1.403,58.2343,-155.103,PetDB
+Eocene,54,Andesite ,volcanic arc,57.3,0.81,3.91,7.12,1.479,58.35,-155.1,PetDB
+Eocene,52.8,Basalt ,convergent margin,48.21,2.13,8.01,,0.65,18.054,-71.116,PetDB
+Eocene,53.7,Basalt ,convergent margin,47.39,2.8,10.29,,1.08,-45.77,-71.78,PetDB
+Eocene,53.6,Basalt ,convergent margin,47.32,2.85,9.74,,1.09,-45.77,-71.78,PetDB
+Eocene,39,Basalt ,spreading center,,,,,0.26,-10.017,-110.1,PetDB
+Eocene,50.4,Basalt ,seamount,48.63,1.24,7.47,12.8,0.12,51.1984,167.768,PetDB
+Eocene,52.6,Basalt ,seamount,46.5,2.07,5.95,11.1,1.09,51.1984,167.768,PetDB
+Eocene,48,Basalt ,seamount,47.58,3.8,2.67,,1.8,-35.8574,-169.895,PetDB
+Eocene,50.9,Basalt ,seamount,43.71,3.03,13.78,,1,-38.0383,-168.265,PetDB
+Eocene,49.4,Basalt ,seamount,42.3,4.69,2.14,,1.89,-38.1717,-168.66,PetDB
+Eocene,44,Basalt ,seamount,44.8,4.07,4.29,,1.69,-39.0971,-167.525,PetDB
+Eocene,44,Basalt ,seamount,45.54,3.68,7.36,,1,-39.2183,-167.618,PetDB
+Eocene,43.9,Basalt ,seamount,44.53,4.41,4.71,,1.14,-39.2183,-167.618,PetDB
+Eocene,43,Basalt ,seamount,,,,,,-39.6767,-166.643,PetDB
+Eocene,41.3,Basalt ,seamount,47.2,3.26,5.61,,1.13,-39.865,-166.045,PetDB
+Eocene,40,Basalt ,seamount,46.51,4.08,6.27,,2.02,-40.445,-165.74,PetDB
+Eocene,40,Basalt ,seamount,46.76,3.83,4.45,,2.16,-40.445,-165.74,PetDB
+Eocene,39.4,Basalt ,seamount,47.71,3.63,4.18,,1.34,-40.445,-165.74,PetDB
+Eocene,40.4,Basalt ,seamount,46.9,3.45,6.19,,1.16,-40.445,-165.74,PetDB
+Eocene,39.8,Basalt ,seamount,47.58,4.28,3.91,,1.55,-40.445,-165.74,PetDB
+Eocene,38.9,Basalt ,seamount,46.89,3.7,3.47,,1.33,-40.7417,-165.46,PetDB
+Eocene,34.7,Basalt ,seamount,46.91,3.78,4.69,,1.42,-41.8783,-163.698,PetDB
+Eocene,43.6,Basalt ,intraplate craton,47.88,1.91,4.98,,2.19,38,119,PetDB
+Eocene,43.6,Basalt ,intraplate craton,49.32,1.96,5.28,,1.4,38,119,PetDB
+Eocene,42,Basalt ,intraplate craton,49.89,1.88,5.21,,1.49,38,119,PetDB
+Eocene,42,Basalt ,intraplate craton,49.92,1.76,5.78,,1.51,38,119,PetDB
+Eocene,44.9,Basalt ,intraplate craton,42.99,2.07,5.96,,2.59,38,119,PetDB
+Eocene,44.9,Basalt ,intraplate craton,44.86,2.19,5.03,,3.09,38,119,PetDB
+Eocene,46.9,Basalt ,intraplate craton,46.89,1.72,6.94,,1.49,38,119,PetDB
+Eocene,49.2,Basalt ,intraplate craton,45.86,1.91,5.34,,3.19,38,119,PetDB
+Eocene,49.2,Basalt ,intraplate craton,45.64,1.99,4.83,,3.38,38,119,PetDB
+Eocene,49.2,Basalt ,intraplate craton,45.73,1.86,5.42,,2.63,38,119,PetDB
+Eocene,46.9,Basalt ,intraplate craton,46.2,1.97,7.69,,1.55,38,119,PetDB
+Eocene,45.5,Basalt ,intraplate craton,46.6,1.73,7.9,,1.41,38,119,PetDB
+Eocene,38.13,Andesite ,volcanic arc,52.55,1.15,4.86,,0.74,51.6918,-176.581,PetDB
+Paleocene,65.3,Andesite ,volcanic arc,58.81,1.12,3.16,9.5,1.15,52.2785,-172.471,PetDB
+Paleocene,63.4,Basaltic Andesite,volcanic arc,55.55,0.89,4.14,8,0.94,52.3083,-172.511,PetDB
+Paleocene,59,Andesite ,volcanic arc,60.6,,,,1.344,58.1946,-155.254,PetDB
+Paleocene,61.4,Basalt,intraplate off-craton,48.13,2.743,6.55,10.76,0.3,9.38,-84.1365,PetDB
+Paleocene,60,Basalt,convergent margin,47.21,2.28,8.66,,0.24,9.5,-84,PetDB
+Paleocene,60,Basalt,convergent margin,47.82,2.73,7.21,,0.39,9.5,-84,PetDB
+Paleocene,60,Basalt,convergent margin,46.26,1.13,8.89,,0.16,9.5,-84,PetDB
+Paleocene,60,Basalt,convergent margin,48.51,1.34,7.38,,0.05,9.5,-84,PetDB
+Paleocene,62.1,Basalt,convergent margin,50.12,1.02,6.49,,0.49,9.5,-84,PetDB
+Paleocene,60,Basalt,convergent margin,49.15,0.89,10.63,,0.1,9.5,-84,PetDB
+Cretaceous,82.9,Andesite,volcanic arc,58.46,1.13,3.26,8.74,0.84,52.2758,-172.493,PetDB
+Cretaceous,66,Andesite,volcanic arc,57.57,1.02,2.71,7.18,1.16,52.3867,-172.427,PetDB
+Cretaceous,86.3,Andesite,volcanic arc,54.69,0.83,4.29,7.16,0.69,52.2701,-172.518,PetDB
+Cretaceous,123.5,Andesite,volcanic arc,58.6,1.25,2.87,9.1,1.04,52.3683,-172.49,PetDB
+Cretaceous,127.9,Andesite,volcanic arc,54.2,0.92,4.38,8.68,0.76,52.37,-172.497,PetDB
+Cretaceous,111,Andesite,volcanic arc,54.8,0.94,4.5,9.21,0.78,52.2775,-172.629,PetDB
+Cretaceous,114.8,Andesite,volcanic arc,61.4,0.99,1.96,9.77,1.68,52.288,-172.629,PetDB
+Cretaceous,133,Andesite,volcanic arc,61.7,1.05,1.75,9.68,1.49,52.3352,-172.575,PetDB
+Cretaceous,80.7,Andesite,volcanic arc,52.9,0.77,5.68,9.39,0.53,52.3598,-172.538,PetDB
+Cretaceous,73.6,Andesite,volcanic arc,56.4,1.05,4.03,10.21,0.85,52.3573,-172.547,PetDB
+Cretaceous,98.4,Andesite,volcanic arc,62.8,1.04,1.75,8.39,1.33,52.3543,-172.559,PetDB
+Cretaceous,65.6,Basalt,volcanic arc,52.15,0.79,3.63,7.47,0.68,52.316,-172.51,PetDB
+Cretaceous,84.6,Basalt,volcanic arc,52.41,0.76,3.44,7.12,0.88,52.316,-172.51,PetDB
+Cretaceous,98.1,Basalt,volcanic arc,52.5,0.69,3.62,7.12,0.65,52.316,-172.51,PetDB
+Cretaceous,138.6,Basalt,volcanic arc,49.21,0.91,7.01,,1.01,51.9192,-177.161,PetDB
+Cretaceous,122.7,Basalt,volcanic arc,47.6,1.08,5.77,,0.98,51.9192,-177.161,PetDB
+Cretaceous,75.6,Andesite,volcanic arc,56.77,1.13,3.35,,0.92,52.3083,-172.511,PetDB
+Cretaceous,114,Andesite,volcanic arc,63,,,,1.3,58.26,-155.22,PetDB
+Cretaceous,70,Andesite,volcanic arc,65,,,,1.759,58.23,-155.07,PetDB
+Cretaceous,70,Andesite,volcanic arc,59.8,,,,1.064,58.279,-154.953,PetDB
+Cretaceous,93,Andesite,volcanic arc,61.9,,,,2.009,58.1946,-155.254,PetDB
+Cretaceous,104,Andesite,volcanic arc,57.7,,,,1.58,58.1574,-155.398,PetDB
+Cretaceous,89,Andesite,volcanic arc,60.4,,,,1.83,58.1946,-155.254,PetDB
+Cretaceous,71,Andesite,volcanic arc,57.8,,,,1.259,58.1946,-155.254,PetDB
+Cretaceous,101,Andesite,volcanic arc,61.7,,,,1.348,58.2343,-155.103,PetDB
+Cretaceous,133,Andesite,volcanic arc,59,,,,1.254,58.3572,-155.104,PetDB
+Cretaceous,92,Andesite,volcanic arc,57.9,,,,1.217,58.3336,-154.686,PetDB
+Cretaceous,139,Andesite,volcanic arc,60,,,,1.069,58.2343,-155.103,PetDB
+Cretaceous,132,Basalt,volcanic arc,54.1,,,,0.531,58.55,-154.52,PetDB
+Cretaceous,73,Andesite,volcanic arc,61.72,0.68,3.09,6.16,1.3,58.23,-155.02,PetDB
+Cretaceous,139,Andesite,volcanic arc,60,0.78,3.12,7.25,1.06,58.23,-155.02,PetDB
+Cretaceous,90,Andesite,volcanic arc,62.7,0.69,1.59,4.54,2.027,58.35,-155.1,PetDB
+Cretaceous,133,Andesite,volcanic arc,57.8,0.75,3.62,6.87,1.254,58.35,-155.1,PetDB
+Cretaceous,85,Basalt,convergent margin,47.92,2.28,5.81,,0.58,9.5,-84,PetDB
+Cretaceous,85,Basalt,convergent margin,49.35,0.84,8.87,,0.28,9.5,-84,PetDB
+Cretaceous,90,Basalt,convergent margin,48.65,1,8.41,,0.1,9.5,-84,PetDB
+Cretaceous,93,Andesite,convergent margin,51.2,0.89,3.26,,2.74,21.9683,-79.5044,PetDB
+Cretaceous,93,Andesite,convergent margin,53.3,0.82,4.15,,1.04,21.9393,-79.5412,PetDB
+Cretaceous,95.4,Basalt,seamount,51.07,2.01,5.36,,0.46,17.0187,150.326,PetDB
+Cretaceous,84.2,Basalt,seamount,50.06,1.94,6.17,,0.53,17.0775,150.721,PetDB
+Cretaceous,91.7,Basalt,seamount,51.89,1.69,6.1,,0.63,17.7571,151.169,PetDB
+,98.8,Basalt,seamount,46.1,2.59,5.72,,0.93,17.1231,150.046,PetDB
