@@ -5,6 +5,6 @@ pandas
 plotly
 
 # included in python package:
-pathlib
-re
-webbrowser
+# pathlib
+# re
+# webbrowser
