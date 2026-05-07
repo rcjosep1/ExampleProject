@@ -1,6 +1,9 @@
 # SES230 Group Project
 
-Repository scaffold for the SES230 final project submission.
+### PI: Ramsey Joseph
+### Literature Reviewer: Cambria Leben
+### Data Manager: Reeese Woodward
+### Coders: Amanda Byrd, Bryan Kemp
 
 ## Current contents
 
@@ -23,4 +26,3 @@ python code/analysis.py
 
 ## Important note on data
 
-The full EarthChem export is larger than GitHub's normal file-size limit, so the repository excludes the biggest raw files by default. Keep those files locally, use Git LFS, or provide a download workflow if your instructor requires the full dataset in version control.
