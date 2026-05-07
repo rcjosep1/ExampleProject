@@ -3,7 +3,6 @@ matplotlib
 numpy
 pandas
 plotly
-periodictable
 
 # included in python package:
 pathlib
