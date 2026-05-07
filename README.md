@@ -79,7 +79,6 @@ SES230_Jupiter_TermProject/
 │   └── SES230_Jupiter_ZoteroLibrary.bib
 │
 ├── SES230_FinalReport_Jupiter.ipynb
-├── SES230_Jupiter_Notes
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
