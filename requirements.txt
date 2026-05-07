@@ -5,7 +5,7 @@ pandas
 plotly
 periodictable
 
-included in python package:
+# included in python package:
 pathlib
 re
 webbrowser
